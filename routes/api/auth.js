@@ -3,7 +3,9 @@
 var Joi    = require('joi');
 var Bcrypt = require('bcrypt');
 
-var randomKeyGenerator = function () { return (((1+Math.random())*0x10000)|0).toString(16).substring(1); };
+var randomKeyGenerator = function () {
+  return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+};
 
 exports.register = function(server, options, next) {
   server.route([
@@ -30,7 +32,9 @@ exports.register = function(server, options, next) {
 
                 // Store hash in your password DB.
                 db.collection('users').insert(user, function(err, doc) {
-                  if (err) { return reply('Internal MongoDB error', err).code(400); }
+                  if (err) {
+                    return reply('Internal MongoDB error', err).code(400);
+                  }
 
                   reply(doc).code(200);
                 });
@@ -40,7 +44,7 @@ exports.register = function(server, options, next) {
         },
         validate: {
           payload: {
-            email:    Joi.string().email().max(50).required(),
+            email   : Joi.string().email().max(50).required(),
             username: Joi.string().min(3).max(20).required(),
             password: Joi.string().min(5).max(20).required(),
             name    : Joi.string().min(3).max(20).required(),
@@ -57,7 +61,9 @@ exports.register = function(server, options, next) {
           var user = request.payload;
 
           db.collection('users').findOne({ "username": user.username }, function(err, userMongo) {
-              if (err) { return reply('Internal MongoDB error', err).code(400); }
+              if (err) {
+                return reply('Internal MongoDB error', err).code(400);
+              }
 
               if (userMongo === null) {
                 return reply({ "message": "User doesn't exist" }).code(400);
@@ -108,8 +114,9 @@ exports.register = function(server, options, next) {
         }
 
         db.collection('sessions').remove({ "session_id": session.session_id }, function(err, doc) {
-          if (err) { return reply('Internal MongoDB error', err).code(400); }
-
+          if (err) {
+            return reply('Internal MongoDB error', err).code(400);
+          }
           reply(doc).code(200);
         });
       }
