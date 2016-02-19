@@ -1,3 +1,5 @@
+// This is for users and session (cookies)
+
 var Joi    = require('joi');
 var Bcrypt = require('bcrypt');
 
