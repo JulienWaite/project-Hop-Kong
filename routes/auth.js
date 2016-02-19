@@ -1,41 +1,43 @@
-var Authenticated = require("./modules/Authenticated.js");
+// // NOT NEEDED IF MODAL IS USED
 
-exports.register = function (server, options, next) {
-  server.route([
-    {
-      method: 'GET',
-      path: '/signup',
-      handler: function (request, reply) {
-        Authenticated(request, function (result) {
-          // if already signed in, redirect to your main collection page
-          if (result.authenticated) {
-            reply.redirect('/myCollection'); // CHANGE-ME
-          } else {
-            reply.view('auth/signup', {message: request.query.message});
-          }
-        });
-      }
-    },
-    {
-      method: 'GET',
-      path: '/signin',
-      handler: function (request, reply) {
-        Authenticated(request, function (result) {
-          // if already signed in, redirect to your main collection page
-          if (result.authenticated) {
-            reply.redirect('/myCollection'); // CHANGE-ME
-          } else {
-            reply.view('auth/signin', {message: request.query.message});
-          }
-        });
-      }
-    }
-  ]);
+// var Authenticated = require("./modules/Authenticated.js");
 
-  next();
-};
+// exports.register = function (server, options, next) {
+//   server.route([
+//     {
+//       method: 'GET',
+//       path: '/signup',
+//       handler: function (request, reply) {
+//         Authenticated(request, function (result) {
+//           // if already signed in, redirect to your main collection page
+//           if (result.authenticated) {
+//             reply.redirect('/venues'); // CHANGE-ME
+//           } else {
+//             reply.view('auth/signup', {message: request.query.message});
+//           }
+//         });
+//       }
+//     },
+//     {
+//       method: 'GET',
+//       path: '/signin',
+//       handler: function (request, reply) {
+//         Authenticated(request, function (result) {
+//           // if already signed in, redirect to your main collection page
+//           if (result.authenticated) {
+//             reply.redirect('/venues'); // CHANGE-ME
+//           } else {
+//             reply.view('auth/signin', {message: request.query.message});
+//           }
+//         });
+//       }
+//     }
+//   ]);
 
-exports.register.attributes = {
-  name: 'auth-views',
-  version: '0.0.1'
-};
+//   next();
+// };
+
+// exports.register.attributes = {
+//   name: 'auth-views',
+//   version: '0.0.1'
+// };

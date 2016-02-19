@@ -1,32 +1,34 @@
-$(document).ready(function () {
-  var bindSignin = function () {
-    $('#signin').on('submit', function (e) {
-      e.preventDefault();
+// NOT NEEDED IF MODAL IS USED
 
-      var user = {
-        username: $('#signin [name="username"]').val(),
-        password: $('#signin [name="password"]').val()
-      };
+// $(document).ready(function () {
+//   var bindSignin = function () {
+//     $('#signin').on('submit', function (e) {
+//       e.preventDefault();
 
-      $.ajax({
-        type: "POST",
-        url: "/api/signin",
-        data: user,
-        success: function(response){
-          window.location.href = "/";
-        },
-        error: function(response){
-          console.log(response);
-          var text = response.responseJSON ? response.responseJSON.message : response.responseText;
-          $('#signin-form-message').text(text);
-        }
-      });
-    });
-  };
+//       var user = {
+//         username: $('#signin [name="username"]').val(),
+//         password: $('#signin [name="password"]').val()
+//       };
 
-  var init = function () {
-    bindSignin();
-  };
+//       $.ajax({
+//         type: "POST",
+//         url: "/api/signin",
+//         data: user,
+//         success: function(response){
+//           window.location.href = "/";
+//         },
+//         error: function(response){
+//           console.log(response);
+//           var text = response.responseJSON ? response.responseJSON.message : response.responseText;
+//           $('#signin-form-message').text(text);
+//         }
+//       });
+//     });
+//   };
 
-  init();
-});
+//   var init = function () {
+//     bindSignin();
+//   };
+
+//   init();
+// });

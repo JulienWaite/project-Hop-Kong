@@ -13,11 +13,11 @@ var plugins = [
   { register: require('vision')}, // views
   { register: require('inert')}, // public files hosting
   { register: require('./routes/static_pages.js')},
-  { register: require('./routes/auth.js')},
+  // { register: require('./routes/auth.js')},
   { register: require('./routes/api/auth.js')},
   { register: require('hapi-mongodb'), // setup the mongo connect
     options: {
-      "url": process.env.MONGOLAB_URI || "mongodb://127.0.0.1:27017/hapi-template", // CHANGE-ME
+      "url": process.env.MONGOLAB_URI || "mongodb://127.0.0.1:27017/hapi-hopkong", // CHANGE-ME
       "settings": {
         "db": {
           "native_parser": false

@@ -2,23 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hapi Template</title> <!-- CHANGE-ME -->
+  <title>Hop Kong</title> <!-- CHANGE-ME -->
 
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.4/js/bootstrap-select.min.js"></script>  <!-- selectpicker -->
   <script src="/public/js/layouts/layout.js"></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.4/css/bootstrap-select.min.css"> <!-- selectpicker -->
   <link rel="stylesheet" href="/public/css/layouts/layout.css">
 </head>
 <body>
-  {{#if authenticated}}
-    <button id="signout-btn" class="btn btn-default">Sign Out</button>
-  {{else}}
-    <a href="/signup" class="btn btn-default">Sign Up</a>
-    <a href="/signin" class="btn btn-default">Sign In</a>
-  {{/if}}
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Hop Kong</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <form class="navbar-form navbar-left" role="search">
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+
+          <li>
+            {{#unless authenticated}}
+              <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Sign Up</button>
+            {{/unless}}
+          </li>
+          <li>
+            {{#unless authenticated}}
+              <a href="/signin" class="btn btn-default">Sign In</a>
+            {{/unless}}
+          </li>
+          <li>
+            {{#if authenticated}}
+              <button id="signout-btn" class="btn btn-default">Sign Out</button>
+            {{/if}}
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+        </div>
+        <div class="modal-body">
+          <form id="signup">
+            <input type="text" name="username" placeholder="username">
+            <input type="text" name="email" placeholder="email">
+            <input type="password" name="password" placeholder="password">
+            <input type="submit" name="Sign Up">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   {{{content}}}
+
 </body>
 </html>
