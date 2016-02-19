@@ -1,16 +1,16 @@
 <div id="home-page">
-  <h2>Home Page</h2>
+  <!-- <h2>Home Page</h2> -->
 </div>
 
-<div id="options-screen" class="row">
-  <div class="options-buttons col-xs-3 col-xs-push-1"> <!-- options HK locality -->
+<div id="find-options" class="row">
+  <div class="find-dropdown col-lg-3 col-md-4 col-xs-6"> <!-- options HK locality -->
     <select id="hk-locality" class="selectpicker col-xs-12" title="Hong Kong Locality">
       <option>Central</option>
       <option>Sai Ying Pun</option>
       <option>Sheung Wan</option>
     </select>
   </div> <!-- /options HK locality -->
-  <div class="options-buttons col-xs-3 col-xs-push-1"> <!-- options vendor type -->
+  <div class="find-dropdown col-lg-3 col-md-4 col-xs-6"> <!-- options vendor type -->
     <select id="vendor-type" class="selectpicker col-xs-12" title="Vendor Type">
       <option>Brewery</option>
       <option>Online</option>
@@ -18,7 +18,7 @@
       <option>RestBar</option>
     </select>
   </div> <!-- /options vendor type -->
-  <div class="options-buttons col-xs-3 col-xs-push-1"> <!-- beer country -->
+  <div class="find-dropdown col-lg-3 col-md-4 col-xs-6"> <!-- beer country -->
     <select id="beer-country" class="selectpicker col-xs-12" title="Beer Country of Origin">
       <option>Australia</option>
       <option>England</option>
@@ -26,10 +26,60 @@
       <option>USA</option>
     </select>
   </div> <!-- /beer country -->
+  <div>
+    <button id="find-vendor-btn" class="btn btn-default">Find Vendor</button>
+  </div>
 </div>
-<div>
-  <button id="find-vendor-btn" class="btn btn-default">Find Vendor</button>
+
+<!-- Thumbnail Gallery -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+  </div>
 </div>
+
 
 <script src="/public/js/static_pages/home.js"></script>
 <link rel="stylesheet" href="/public/css/static_pages/home.css">

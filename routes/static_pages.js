@@ -23,6 +23,10 @@ exports.register = function (server, options, next) {
     }
   ]);
 
+  // Vendors Page
+
+  // Bookmarks Page
+
   next();
 };
 

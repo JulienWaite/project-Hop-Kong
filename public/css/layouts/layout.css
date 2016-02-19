@@ -1,0 +1,17 @@
+body {
+  background: url(/public/images/hong-kong-skyline.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #02113f;
+}
