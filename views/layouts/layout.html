@@ -27,29 +27,25 @@
         <form class="navbar-form navbar-left" role="search">
         </form>
         <ul class="nav navbar-nav navbar-right">
-
-          <li>
-            {{#unless authenticated}}
-              <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Sign Up</button>
-            {{/unless}}
-          </li>
-          <li>
-            {{#unless authenticated}}
-              <a href="/signin" class="btn btn-default">Sign In</a>
-            {{/unless}}
-          </li>
-          <li>
-            {{#if authenticated}}
+          <% if (!authenticated) { %>
+            <li>
+              <button class="btn btn-default" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+            </li>
+            <li>
+              <button class="btn btn-default" data-toggle="modal" data-target="#signinModal">Sign In</button>
+            </li>
+          <% } else { %>
+            <li>
               <button id="signout-btn" class="btn btn-default">Sign Out</button>
-            {{/if}}
-          </li>
+            </li>
+          <% } %>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
 
-  <!-- Modal -->
-  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <!-- Sign Up Modal -->
+  <div id="signupModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel">
     <div class="modal-dialog" role="document">
       <!-- Modal content-->
       <div class="modal-content">
@@ -57,25 +53,54 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+          <h4 class="modal-title" id="signupModalLabel">Sign Up</h4>
         </div>
         <div class="modal-body">
           <form id="signup">
-            <input type="text" name="username" placeholder="username">
+            <input type="text" name="name" placeholder="name">
             <input type="text" name="email" placeholder="email">
+            <input type="text" name="username" placeholder="username">
             <input type="password" name="password" placeholder="password">
-            <input type="submit" name="Sign Up">
+            <input id="signup-btn" type="submit" name="Sign Up">
+            <p id="signup-form-message">Some text in the modal.</p> <!-- quick fix -->
           </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button>  -->
         </div>
       </div>
     </div>
   </div>
 
-  {{{content}}}
+  <!-- Sign In Modal -->
+  <div id="signinModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="signinModalLabel">
+    <div class="modal-dialog" role="document">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="signinModalLabel">Sign In</h4>
+        </div>
+        <div class="modal-body">
+          <form id="signin">
+            <input type="text" name="username" placeholder="username">
+            <input type="password" name="password" placeholder="password">
+            <input id="signin-btn" type="submit" name="Sign In">
+            <p>Some text in the modal.</p>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- content %>
 
 </body>
 </html>

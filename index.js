@@ -38,11 +38,13 @@ var plugins = [
 
 // register plugins into the environment
 server.register(plugins, function(err){
-  if (err) { throw err; }
+  if (err) {
+    throw err;
+  }
 
   // configure views
   server.views({
-    engines: {html: require('handlebars')},
+    engines: {html: require('ejs')},
     path: Path.join(__dirname, 'views'),
     layout: true,
     layoutPath: Path.join(__dirname, 'views/layouts')

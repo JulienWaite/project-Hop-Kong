@@ -2,42 +2,34 @@
   <h2>Home Page</h2>
 </div>
 
-<div id="options-screen">
-  <div class="row">
+<div id="options-screen" class="row">
     <div class="options-buttons col-xs-3 col-xs-push-1"> <!-- options HK locality -->
       <select id="hk-locality" class="selectpicker col-xs-12" title="Hong Kong Locality">
         <option>Central</option>
         <option>Sai Ying Pun</option>
         <option>Sheung Wan</option>
       </select>
-    </div> <!-- options HK locality -->
-  </div>  <!-- row -->
-
-  <div class="row">
+    </div> <!-- /options HK locality -->
     <div class="options-buttons col-xs-3 col-xs-push-1"> <!-- options vendor type -->
       <select id="vendor-type" class="selectpicker col-xs-12" title="Vendor Type">
-        <option value="brewery">Brewery</option>
-        <option value="online">Online</option>
-        <option value="retail">Retail</option>
-        <option value="restbar">RestBar</option>
+        <option>Brewery</option>
+        <option>Online</option>
+        <option>Retail</option>
+        <option>RestBar</option>
       </select>
-    </div> <!-- options vendor type -->
-  </div> <!-- row -->
-
-  <div class="row">
-    <div class="options-buttons col-xs-3 col-xs-push-1"> <!-- options orientation -->
+    </div> <!-- /options vendor type -->
+    <div class="options-buttons col-xs-3 col-xs-push-1"> <!-- beer country -->
       <select id="beer-country" class="selectpicker col-xs-12" title="Beer Country of Origin">
-        <option value="australia">Australia</option>
-        <option value="england">England</option>
-        <option value="japan">Japan</option>
-        <option value="usa">USA</option>
+        <option>Australia</option>
+        <option>England</option>
+        <option>Japan</option>
+        <option>USA</option>
       </select>
-    </div> <!-- options orientation -->
-  </div> <!-- row -->
+    </div> <!-- /beer country -->
 </div>
-
-<button id="find-btn" class="btn btn-default">Find</button>
-
+<div class>
+  <button id="find-btn" class="btn btn-default">Find</button>
+</div>
 
 <script src="/public/js/static_pages/home.js"></script>
 <link rel="stylesheet" href="/public/css/static_pages/home.css">
