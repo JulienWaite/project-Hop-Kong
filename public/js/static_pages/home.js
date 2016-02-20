@@ -8,6 +8,8 @@ $(document).ready(function () {
       var vendorType  = $("#vendor-type").val();
       var beerCountry = $("#beer-country").val();
 
+      // console.log(locality, vendorType, beerCountry);
+
       $.ajax({
         method: "GET",
         url: "/api/vendors",
