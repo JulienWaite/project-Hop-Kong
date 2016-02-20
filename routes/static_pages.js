@@ -20,12 +20,28 @@ exports.register = function (server, options, next) {
           reply.view('static_pages/home', data).code(200);
         });
       }
+    },
+    { // Vendors Page
+      method: 'GET',
+      path: '/vendors',
+      handler: function(request, reply) {
+        Authenticated(request, function (result) {
+          var data = result; // need to have authenticated in order to show signout button
+          reply.view('static_pages/vendors', data).code(200);
+        });
+      }
+    },
+    { // Bookmarks
+      method: 'GET',
+      path: '/bookmarks',
+      handler: function(request, reply) {
+        Authenticated(request, function (result) {
+          var data = result; // need to have authenticated in order to show signout button
+          reply.view('static_pages/bookmarks', data).code(200);
+        });
+      }
     }
   ]);
-
-  // Vendors Page
-
-  // Bookmarks Page
 
   next();
 };

@@ -1,0 +1,461 @@
+{
+"name": "AmeriCraft Imports",
+"image": "https://pbs.twimg.com/profile_images/2270342730/AmeriCraft_Star_400x400.jpg",
+"street": "Unit 3C, 235 Wing Lok Street",
+"coord": [22.287674, 114.148303],
+"locality": "Sheung Wan",
+"area": "Hong Kong Island",
+"type": ["Online Store"],
+"phone": "9314-3330",
+"website": "http://americraftimports.com",
+"beerCountries": ["America"],
+"rating": 10
+}
+{
+"name": "Beerhound",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store"],
+"phone":
+"website": "http://www.beerhound.com.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "Beers R Us",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store"],
+"phone":
+"website": "http://www.beersrus.hk",
+"beerCountries": ["USA"],
+"rating":
+}
+{
+"name": "Belgian Beer",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store"],
+"phone":
+"website": "http://www.belgianbeer.com.hk",
+"beerCountries":
+"rating": ["Belgium"],
+}
+{
+"name": "Best Bev HK",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store"],
+"phone":
+"website": "http://bestbevhk.com",
+"beerCountries": ["Australia","France","Japan","Scotland"],
+"rating":
+}
+{
+"name": "Hop Leaf",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store"],
+"phone":
+"website": "http://hopleaf.hk",
+"beerCountries": ["Denmark","Japan","New Zealand","Norway","Scotland","USA"],
+"rating":
+}
+{
+"name": "Tai-Pan Beer Company",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store"],
+"phone":
+"website": "http://taipanbeer.com",
+"beerCountries": ["Australia"],
+"rating":
+}
+{
+"name": "Thirsty Brothers",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store"],
+"phone":
+"website": "http://thirstybrothers.com.hk",
+"beerCountries": ["Canada","Japan","Scotland"],
+"rating":
+}
+{
+"name": "Black Kite Brewery",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Brewery"],
+"phone":
+"website": "http://blackkite.hk",
+"beerCountries": ["Hong Kong"],
+"rating":
+}
+{
+"name": "Gweilo Beer",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Brewery"],
+"phone":
+"website": "http://gweilobeer.com",
+"beerCountries": ["Hong Kong"],
+"rating":
+}
+{
+"name": "Hong Kong Beer Company",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Brewery"],
+"phone":
+"website": "http://www.hkbeerco.com",
+"beerCountries": ["Hong Kong"],
+"rating":
+}
+{
+"name": "Kowloon Bay Brewery",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Brewery"],
+"phone":
+"website": "http://www.kowloonbaybrewery.com",
+"beerCountries": ["Hong Kong"],
+"rating":
+}
+{
+"name": "Moonzen Brewery",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Brewery"],
+"phone":
+"website": "http://moonzen.hk",
+"beerCountries": ["Hong Kong"],
+"rating":
+}
+{
+"name": "Nine Dragons Brewery",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Brewery"],
+"phone":
+"website": "http://www.ninedragons.hk",
+"beerCountries": ["Hong Kong"],
+"rating":
+}
+{
+"name": "Yardley Brothers Brewing",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Brewery"],
+"phone":
+"website": "http://yardleybrothers.hk",
+"beerCountries": ["Hong Kong"],
+"rating":
+}
+{
+"name": "Young Master Ales",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Brewery"],
+"phone":
+"website": "http://www.youngmasterales.com",
+"beerCountries": ["Hong Kong"],
+"rating":
+}
+{
+"name": "Craft Beer & Co (Central)",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar"],
+"phone":
+"website": "http://craftbrew.com.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "Craft Beer & Co (KT)",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar"],
+"phone":
+"website": "http://craftbrew.com.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "Craft Beer & Co (SYP)",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar"],
+"phone":
+"website": "http://craftbrew.com.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "Crafty Cow",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar"],
+"phone":
+"website": "http://www.craftycow.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "Kowloon Tap Room",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar"],
+"phone":
+"website": "http://www.kowloon-taproom.com",
+"beerCountries":
+"rating":
+}
+{
+"name": "Little Beer Room",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar"],
+"phone":
+"website": "http://www.littlebeerroom.com",
+"beerCountries":
+"rating":
+}
+{
+"name": "The Globe",
+"image": "https://pbs.twimg.com/profile_images/580614677660590080/yQcirGXP_400x400.jpg",
+"street": "45-53A Graham Street","coord": [22.308803, 114.225026],
+"locality": "Central",
+"area": "Hong Kong Island",
+"type": ["Craft Beer Bar"],
+"phone": "2543-1941",
+"website": "http://www.theglobe.com.hk",
+"beerCountries" : ["Australia","England","Hong Kong","USA"],
+"rating": 10
+}
+{
+"name": "The Roundhouse Taproom",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar"],
+"phone":
+"website": "http://roundhouse.com.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "The Ale Project",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar"],
+"phone":
+"website": "http://www.thealeproject.com",
+"beerCountries":
+"rating":
+}
+{
+"name": "Tipping Point Brewing Company",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar"],
+"phone":
+"website": "https://www.facebook.com/tippingpointbrewingco?fref=ts",
+"beerCountries":
+"rating":
+}
+{
+"name": "Craftissimo (Sheung Wan)",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store","Retail Store"],
+"phone":
+"website": "http://www.craftissimo.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "Craftissimo (TST East)",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store","Retail Store"],
+"phone":
+"website": "http://www.craftissimo.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "HK BrewCraft",
+"image": "https://pbs.twimg.com/profile_images/3502672366/1b24c52857f48e8a6f57c47b8eba05cf.png",
+"street": "4/F, 15 Cochrane Street",
+"coord": [22.283349,114.154545],
+"locality": "Central",
+"area": "Hong Kong Island",
+"type":  ["Online Store","Retail Store"],
+"phone": "5925-2739",
+"website": "http://www.hkbrewcraft.com",
+"beerCountries": ["England", "Japan"],
+"rating":  10
+}
+{
+"name": "SIPS HK",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Retail Store"],
+"phone":
+"website": "http://www.sips.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "Soho Wines & Spirits (Central)",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store","Retail Store"],
+"phone":
+"website": "https://sohowines.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "Soho Wines & Spirits (SYP)"
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store","Retail Store"],
+"phone":
+"website": "https://sohowines.hk"
+"beerCountries":
+"rating":
+}
+{
+"name": "The Beer Bay",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Craft Beer Bar","Retail Store"],
+"phone":
+"website": "http://www.thebeerbay.com.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "The Bottle Shop",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Retail Store"],
+"phone":
+"website": "http://thebottleshop.hk",
+"beerCountries":
+"rating":
+}
+{
+"name": "The Tramline Liquor Company",
+"image":
+"street":
+"coord":
+"locality":
+"area":
+"type": ["Online Store","Retail Store"],
+"phone":
+"website": "http://thetramlineliquorco.hk",
+"beerCountries": ["Australia","Belgium","Hong Kong","New Zealand","Scotland"],
+"rating":
+}
+
+
+
+
+
+
+
