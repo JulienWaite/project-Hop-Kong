@@ -9,6 +9,8 @@
 "phone": "9314-3330",
 "email": "tbc@tbc.com",
 "website": "http://americraftimports.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["America"],
 "rating": 10
 }
@@ -23,6 +25,8 @@
 "phone": "2553-3787",
 "email": "info@beerhound.com.hk",
 "website": "http://www.beerhound.com.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -37,6 +41,8 @@
 "phone": "CANNOT FIND PHONE",
 "email": "sales@beers-r-us.com",
 "website": "http://www.beersrus.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["USA"],
 "rating": 1
 }
@@ -51,6 +57,8 @@
 "phone": "CANNOT FIND PHONE",
 "email": "drink@bestbevhk.com",
 "website": "http://bestbevhk.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Australia","France","Japan","Scotland"],
 "rating": 1
 }
@@ -63,8 +71,10 @@
 "area": "Hong Kong Island",
 "type": ["Brewery"],
 "phone": "CANNOT FIND PHONE",
-"email": "tbc@tbc.com",
+"email": "beer@blackkite.hk",
 "website": "http://blackkite.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
@@ -79,6 +89,8 @@
 "phone": "2885-0821",
 "email": "tbc@tbc.com",
 "website": "http://craftbrew.com.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -93,6 +105,8 @@
 "phone": "CANNOT FIND PHONE",
 "email": "CANNOT FIND EMAIL",
 "website": "http://craftbrew.com.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -107,20 +121,24 @@
 "phone": "2559-0498",
 "email": "tbc@tbc.com",
 "website": "http://craftbrew.com.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
 {
 "name": "Craftissimo (Sheung Wan)",
 "image": "https://pbs.twimg.com/profile_images/378800000123253653/c39674e6fb63d7afa3fa9d52f6c7fca0.jpeg",
-"street": "",
+"street": "Shop D, GF, 22-24 Tai Ping Shan Street",
 "coord": [0,0],
-"locality": "",
-"area": "",
+"locality": "Sheung Wan",
+"area": "Hong Kong Island",
 "type": ["Online Store","Retail Store"],
-"phone": "",
-"email": "tbc@tbc.com",
+"phone": "6274-3130",
+"email": "info@craftissimo.hk",
 "website": "http://www.craftissimo.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -129,12 +147,14 @@
 "image": "https://pbs.twimg.com/profile_images/378800000123253653/c39674e6fb63d7afa3fa9d52f6c7fca0.jpeg",
 "street": "",
 "coord": [0,0],
-"locality": "",
-"area": "",
+"locality": "TST East",
+"area": "Kowloon",
 "type": ["Online Store","Retail Store"],
-"phone": "",
-"email": "tbc@tbc.com",
+"phone": "6274-3130",
+"email": "info@craftissimo.hk",
 "website": "http://www.craftissimo.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -149,6 +169,8 @@
 "phone": "2915-8988",
 "email": "tbc@tbc.com",
 "website": "http://www.craftycow.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -161,8 +183,10 @@
 "area": "CANNOT FIND AREA",
 "type": ["Brewery"],
 "phone": "CANNOT FIND PHONE",
-"email": "tbc@tbc.com",
+"email": "info@gweilobeer.com",
 "website": "http://gweilobeer.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
@@ -175,8 +199,10 @@
 "area": "Hong Kong Island",
 "type":  ["Online Store","Retail Store"],
 "phone": "5925-2739",
-"email": "tbc@tbc.com",
+"email": "info@hkbrewcraft.com",
 "website": "http://www.hkbrewcraft.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["England", "Japan"],
 "rating": 10
 }
@@ -189,8 +215,10 @@
 "area": "Hong Kong Island",
 "type": ["Brewery"],
 "phone": "2580-2360",
-"email": "tbc@tbc.com",
+"email": "info@hkbeerco.com",
 "website": "http://www.hkbeerco.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
@@ -205,6 +233,8 @@
 "phone": "2439-9956",
 "email": "sales@hopleaf.hk",
 "website": "http://hopleaf.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Denmark","Japan","New Zealand","Norway","Scotland","USA"],
 "rating": 1
 }
@@ -217,8 +247,10 @@
 "area": "Kowloon",
 "type": ["Brewery"],
 "phone": "2559-8218",
-"email": "tbc@tbc.com",
+"email": "ging.van@kowloonbaybrewery.com",
 "website": "http://www.kowloonbaybrewery.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
@@ -233,6 +265,8 @@
 "phone": "2861-0355",
 "email": "tbc@tbc.com",
 "website": "http://www.kowloon-taproom.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -247,6 +281,8 @@
 "phone": "2799-4899",
 "email": "tbc@tbc.com",
 "website": "http://www.littlebeerroom.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -259,50 +295,58 @@
 "area": "Hong Kong Island",
 "type": ["Brewery"],
 "phone": "5109-6585",
-"email": "tbc@tbc.com",
+"email": "simon@ninedragons.hk",
 "website": "http://www.ninedragons.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
 {
 "name": "SIPS HK",
 "image": "NO TWITTER AND CANNOT EXTRACT FROM FACEBOOK",
-"street": "",
+"street": "Unit 5, GF, Island Crest, 8 First Street",
 "coord": [0,0],
 "locality": "Sai Ying Pun",
 "area": "Hong Kong Island",
 "type": ["Retail Store"],
-"phone": "",
-"email": "tbc@tbc.com",
+"phone": "2547-3000",
+"email": "mail@sips.asia",
 "website": "http://www.sips.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
 {
 "name": "Soho Wines & Spirits (Central)",
 "image": "https://pbs.twimg.com/profile_images/1840151476/twitter_400x400.png",
-"street": "",
+"street": "49 Elgin Street",
 "coord": [0,0],
-"locality": "",
+"locality": "Central",
 "area": "Hong Kong Island",
 "type": ["Online Store","Retail Store"],
-"phone": "",
-"email": "tbc@tbc.com",
+"phone": "2525-0316",
+"email": "shelly@sohowines.hk",
 "website": "https://sohowines.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
 {
 "name": "Soho Wines & Spirits (SYP)",
 "image": "https://pbs.twimg.com/profile_images/1840151476/twitter_400x400.png",
-"street": "",
+"street": "62 Centre Street",
 "coord": [0,0],
 "locality": "Sai Ying Pun",
 "area": "Hong Kong Island",
 "type": ["Online Store","Retail Store"],
-"phone": "",
-"email": "tbc@tbc.com",
+"phone": "2548-0211",
+"email": "saiwan@sohowines.com",
 "website": "https://sohowines.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -317,6 +361,8 @@
 "phone": "CANNOT FIND PHONE",
 "email": "CANNOT FIND EMAIL",
 "website": "http://taipanbeer.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Australia"],
 "rating": 1
 }
@@ -331,6 +377,8 @@
 "phone": "2468-2010",
 "email": "tbc@tbc.com",
 "website": "http://www.thealeproject.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -344,6 +392,8 @@
 "phone": "2543-1941",
 "email": "tbc@tbc.com",
 "website": "http://www.theglobe.com.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries" : ["Australia","England","Hong Kong","USA"],
 "rating": 10
 }
@@ -358,48 +408,56 @@
 "phone": "2366-4880",
 "email": "tbc@tbc.com",
 "website": "http://roundhouse.com.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
 {
 "name": "The Beer Bay",
 "image": "NO TWITTER AND CANNOT EXTRACT FROM FACEBOOK",
-"street": "",
+"street": "Pier 3 and Pier 4, Central Ferry Pier",
 "coord": [0,0],
 "locality": "Central",
 "area": "Hong Kong Island",
 "type": ["Craft Beer Bar","Retail Store"],
-"phone": "",
-"email": "tbc@tbc.com",
+"phone": "3481-7290",
+"email": "CANNOT FIND EMAIL",
 "website": "http://www.thebeerbay.com.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
 {
 "name": "The Bottle Shop",
 "image": "https://pbs.twimg.com/profile_images/3160795384/fcc12ff1c3baba3653ccb3c8eac878f2_400x400.jpeg",
-"street": "",
+"street": "GF, 114 Man Nin Street",
 "coord": [0,0],
-"locality": "",
-"area": "",
+"locality": "Sai Kung",
+"area": "New Territories",
 "type": ["Retail Store"],
-"phone": "",
-"email": "tbc@tbc.com",
+"phone": "2791-1600",
+"email": "mail@thebottleshop.hk",
 "website": "http://thebottleshop.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
 {
 "name": "The Tramline Liquor Company",
 "image": "NO TWITTER AND CANNOT EXTRACT FROM FACEBOOK",
-"street": "",
+"street": "78 Catchick Street",
 "coord": [0,0],
 "locality": "Kennedy Town",
 "area": "Hong Kong Island",
 "type": ["Online Store","Retail Store"],
-"phone": "",
-"email": "tbc@tbc.com",
+"phone": "2387-1230",
+"email": "CANNOT FIND EMAIL",
 "website": "http://thetramlineliquorco.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Australia","Belgium","Hong Kong","New Zealand","Scotland"],
 "rating": 1
 }
@@ -414,6 +472,8 @@
 "phone": "2156-3356",
 "email": "info@thirstybrothers.com.hk",
 "website": "http://thirstybrothers.com.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Canada","Japan","Scotland"],
 "rating": 1
 }
@@ -428,6 +488,8 @@
 "phone": "2868-2892",
 "email": "tbc@tbc.com",
 "website": "https://www.facebook.com/tippingpointbrewingco?fref=ts",
+"facebook": "",
+"twitter": "",
 "beerCountries": [],
 "rating": 1
 }
@@ -440,8 +502,10 @@
 "area": "New Territories",
 "type": ["Brewery"],
 "phone": "9543-4963",
-"email": "tbc@tbc.com",
+"email": "CANNOT FIND EMAIL",
 "website": "http://yardleybrothers.hk",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
@@ -454,8 +518,10 @@
 "area": "Hong Kong Island",
 "type": ["Brewery"],
 "phone": "CANNOT FIND PHONE",
-"email": "tbc@tbc.com",
+"email": "info@youngmasterales.com",
 "website": "http://www.youngmasterales.com",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
