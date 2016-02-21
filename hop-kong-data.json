@@ -1,6 +1,6 @@
 {
 "name": "AmeriCraft Imports",
-"image": "https://pbs.twimg.com/profile_images/2270342730/AmeriCraft_Star_400x400.jpg",
+"image": "http://i.imgur.com/J2LHhLe.jpg",
 "street": "Unit 3C, 235 Wing Lok Street",
 "coord": [22.287674, 114.148303],
 "locality": "Sheung Wan",
@@ -16,7 +16,7 @@
 }
 {
 "name": "Beerhound",
-"image": "https://pbs.twimg.com/profile_images/3336320550/1e50840e5064c6696016c1564177d663_400x400.png",
+"image": "http://i.imgur.com/h8OjUQP.png",
 "street": "CANNOT FIND ADDRESS",
 "coord": [0,0],
 "locality": "CANNOT FIND LOCALITY",
@@ -32,7 +32,7 @@
 }
 {
 "name": "Beers R Us",
-"image": "https://pbs.twimg.com/profile_images/585862146312900608/n37jjcu4.png",
+"image": "http://i.imgur.com/gXyNF84.png",
 "street": "CANNOT FIND ADDRESS",
 "coord": [0,0],
 "locality": "CANNOT FIND LOCALITY",
@@ -48,7 +48,7 @@
 }
 {
 "name": "Best Bev HK",
-"image": "https://pbs.twimg.com/profile_images/457428271039143936/vF0OOCCV_400x400.png",
+"image": "http://i.imgur.com/P5vAbd4.png",
 "street": "1F, 92 Connaught Road West",
 "coord": [0,0],
 "locality": "Sheung Wan",
@@ -64,7 +64,7 @@
 }
 {
 "name": "Black Kite Brewery",
-"image": "https://pbs.twimg.com/profile_images/599367269626417154/FAPvl6V1_400x400.png",
+"image": "http://i.imgur.com/Q1eljxN.png",
 "street": "11B Derrick Industrial Building, 49 Wong Chuk Hang Road",
 "coord": [0,0],
 "locality": "Wong Chuk Hang",
@@ -87,27 +87,27 @@
 "area": "Hong Kong Island",
 "type": ["Craft Beer Bar"],
 "phone": "2885-0821",
-"email": "CANNOT FIND EMAIL",
+"email": "info@craftbrew.com.hk",
 "website": "http://craftbrew.com.hk",
 "facebook": "https://www.facebook.com/thecraftbeerco/",
-"twitter": "CANNOT FIND ON TWITTER",
-"beerCountries": [],
+"twitter": "https://twitter.com/CraftBrewCoHK",
+"beerCountries": ["Hong Kong","Scotland","USA"],
 "rating": 1
 }
 {
 "name": "Craft Beer & Co (KT)",
 "image": "http://imgur.com/Q8SI6vu.jpg",
-"street": "CANNOT FIND ADDRESS",
+"street": "G/F, 27-31 Catchick Street",
 "coord": [0,0],
 "locality": "Kennedy Town",
 "area": "Hong Kong Island",
 "type": ["Craft Beer Bar"],
-"phone": "CANNOT FIND PHONE",
-"email": "CANNOT FIND EMAIL",
+"phone": "2246-8782",
+"email": "info@craftbrew.com.hk",
 "website": "http://craftbrew.com.hk",
 "facebook": "https://www.facebook.com/thecraftbeerco/",
-"twitter": "CANNOT FIND ON TWITTER",
-"beerCountries": [],
+"twitter": "https://twitter.com/CraftBrewCoHK",
+"beerCountries": ["Hong Kong","Scotland","USA"],
 "rating": 1
 }
 {
@@ -119,16 +119,16 @@
 "area": "Hong Kong Island",
 "type": ["Craft Beer Bar"],
 "phone": "2559-0498",
-"email": "CANNOT FIND EMAIL",
+"email": "info@craftbrew.com.hk",
 "website": "http://craftbrew.com.hk",
 "facebook": "https://www.facebook.com/thecraftbeerco/",
-"twitter": "CANNOT FIND ON TWITTER",
-"beerCountries": [],
+"twitter": "https://twitter.com/CraftBrewCoHK",
+"beerCountries": ["Hong Kong","Scotland","USA"],
 "rating": 1
 }
 {
 "name": "Craftissimo (Sheung Wan)",
-"image": "https://pbs.twimg.com/profile_images/378800000123253653/c39674e6fb63d7afa3fa9d52f6c7fca0.jpeg",
+"image": "http://i.imgur.com/DLdFL8M.jpg",
 "street": "Shop D, GF, 22-24 Tai Ping Shan Street",
 "coord": [0,0],
 "locality": "Sheung Wan",
@@ -144,10 +144,10 @@
 }
 {
 "name": "Craftissimo (TST East)",
-"image": "https://pbs.twimg.com/profile_images/378800000123253653/c39674e6fb63d7afa3fa9d52f6c7fca0.jpeg",
-"street": "",
+"image": "http://i.imgur.com/k8ZUGOY.jpg",
+"street": "Shop 166, 1/F, Peninsula Centre, Mody Road",
 "coord": [0,0],
-"locality": "TST East",
+"locality": "Tsim Tsa Tsui East",
 "area": "Kowloon",
 "type": ["Online Store","Retail Store"],
 "phone": "6274-3130",
@@ -160,7 +160,7 @@
 }
 {
 "name": "Crafty Cow",
-"image": "https://pbs.twimg.com/profile_images/629365111849906176/bjbHVnn3_400x400.jpg",
+"image": "http://i.imgur.com/ve9oeZ6.jpg",
 "street": "3 Upper Station Street",
 "coord": [0,0],
 "locality": "Sheung Wan",
@@ -176,7 +176,7 @@
 }
 {
 "name": "Gweilo Beer",
-"image": "https://pbs.twimg.com/profile_images/607092628362948609/SsyhJ4ov_400x400.jpg",
+"image": "http://i.imgur.com/geLBSVP.jpg",
 "street": "CANNOT FIND ADDRESS",
 "coord": [0,0],
 "locality": "Chai Wan",
@@ -192,7 +192,7 @@
 }
 {
 "name": "HK BrewCraft",
-"image": "https://pbs.twimg.com/profile_images/3502672366/1b24c52857f48e8a6f57c47b8eba05cf.png",
+"image": "http://i.imgur.com/xWr8gsq.png",
 "street": "4/F, 15 Cochrane Street",
 "coord": [22.283349,114.154545],
 "locality": "Central",
@@ -208,7 +208,7 @@
 }
 {
 "name": "Hong Kong Beer Company",
-"image": "https://pbs.twimg.com/profile_images/431898574452834304/bmAC-wyN_400x400.png",
+"image": "http://i.imgur.com/5rR9Zgn.png",
 "street": "GF, 5A, Wah Shing Centre, Fung Yip Street",
 "coord": [0,0],
 "locality": "Chai Wan",
@@ -224,7 +224,7 @@
 }
 {
 "name": "Hop Leaf",
-"image": "https://pbs.twimg.com/profile_images/576697644547903488/ilKcw2A0.jpeg",
+"image": "http://i.imgur.com/wzbKF7g.jpg",
 "street": "Unit G2, 3F, Block B, Marvel Industrial Building, 17-23 Kwai Fung Crescent",
 "coord": [0,0],
 "locality": "Kwai Fong",
@@ -240,7 +240,7 @@
 }
 {
 "name": "Kowloon Bay Brewery",
-"image": "https://pbs.twimg.com/profile_images/625880441392922625/P35bbx8q_400x400.jpg",
+"image": "http://i.imgur.com/S55RyqI.jpg",
 "street": "CANNOT FIND ADDRESS",
 "coord": [0,0],
 "locality": "Kowloon Bay",
@@ -249,7 +249,7 @@
 "phone": "2559-8218",
 "email": "ging.van@kowloonbaybrewery.com",
 "website": "http://www.kowloonbaybrewery.com",
-"facebook": "CANNOT FIND ON FACEBOOK",
+"facebook": "NOT ON FACEBOOK",
 "twitter": "https://twitter.com/kowloonbb",
 "beerCountries": ["Hong Kong"],
 "rating": 1
@@ -265,8 +265,8 @@
 "phone": "2861-0355",
 "email": "tbc@tbc.com",
 "website": "http://www.kowloon-taproom.com",
-"facebook": "CANNOT FIND ON FACEBOOK",
-"twitter": "CANNOT FIND ON TWITTER",
+"facebook": "NOT ON FACEBOOK",
+"twitter": "NOT ON TWITTER",
 "beerCountries": [],
 "rating": 1
 }
@@ -279,7 +279,7 @@
 "area": "Hong Kong Island",
 "type": ["Craft Beer Bar"],
 "phone": "2799-4899",
-"email": "",
+"email": "mail@littlebeerroom.com",
 "website": "http://www.littlebeerroom.com",
 "facebook": "https://www.facebook.com/littlebeerroom/",
 "twitter": "https://twitter.com/littlebeerroom",
@@ -298,13 +298,13 @@
 "email": "simon@ninedragons.hk",
 "website": "http://www.ninedragons.hk",
 "facebook": "https://www.facebook.com/Nine-Dragons-Brewery-1416098798643067/",
-"twitter": "CANNOT FIND ON TWITTER",
+"twitter": "NOT ON TWITTER",
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
 {
 "name": "SIPS HK",
-"image": "NO TWITTER AND CANNOT EXTRACT FROM FACEBOOK",
+"image": "http://i.imgur.com/6ANcZT2.png",
 "street": "Unit 5, GF, Island Crest, 8 First Street",
 "coord": [0,0],
 "locality": "Sai Ying Pun",
@@ -320,7 +320,7 @@
 }
 {
 "name": "Soho Wines & Spirits (Central)",
-"image": "https://pbs.twimg.com/profile_images/1840151476/twitter_400x400.png",
+"image": "http://i.imgur.com/fkNKE37.png",
 "street": "49 Elgin Street",
 "coord": [0,0],
 "locality": "Central",
@@ -336,7 +336,7 @@
 }
 {
 "name": "Soho Wines & Spirits (SYP)",
-"image": "https://pbs.twimg.com/profile_images/1840151476/twitter_400x400.png",
+"image": "http://i.imgur.com/vznSKTC.png",
 "street": "62 Centre Street",
 "coord": [0,0],
 "locality": "Sai Ying Pun",
@@ -352,7 +352,7 @@
 }
 {
 "name": "Tai-Pan Beer Company",
-"image": "https://pbs.twimg.com/profile_images/553077998350368769/YC5twd-1_400x400.jpeg",
+"image": "http://i.imgur.com/tefdtV5.jpg",
 "street": "CANNOT FIND ADDRESS",
 "coord": [0,0],
 "locality": "CANNOT FIND LOCALITY",
@@ -368,7 +368,7 @@
 }
 {
 "name": "The Ale Project",
-"image": "https://pbs.twimg.com/profile_images/526793398678601729/OOo7j4j7_400x400.jpeg",
+"image": "http://i.imgur.com/rK7v2Pp.jpg",
 "street": "15 Hak Po Street",
 "coord": [0,0],
 "locality": "Mong Kok",
@@ -384,14 +384,14 @@
 }
 {
 "name": "The Beer Bay",
-"image": "NO TWITTER AND CANNOT EXTRACT FROM FACEBOOK",
+"image": "http://i.imgur.com/m1s9ncx.png",
 "street": "Pier 3 and Pier 4, Central Ferry Pier",
 "coord": [0,0],
 "locality": "Central",
 "area": "Hong Kong Island",
 "type": ["Craft Beer Bar","Retail Store"],
 "phone": "3481-7290",
-"email": "CANNOT FIND EMAIL",
+"email": "notavailable@email.com",
 "website": "http://www.thebeerbay.com.hk",
 "facebook": "https://www.facebook.com/bbpier3and4/",
 "twitter": "CANNOT FIND ON TWITTER",
@@ -400,7 +400,7 @@
 }
 {
 "name": "The Bottle Shop",
-"image": "https://pbs.twimg.com/profile_images/3160795384/fcc12ff1c3baba3653ccb3c8eac878f2_400x400.jpeg",
+"image": "http://i.imgur.com/sdunRoZ.jpg",
 "street": "GF, 114 Man Nin Street",
 "coord": [0,0],
 "locality": "Sai Kung",
@@ -422,7 +422,7 @@
 "area": "Hong Kong Island",
 "type": ["Craft Beer Bar"],
 "phone": "2543-1941",
-"email": "tbc@tbc.com",
+"email": "toby@theglobe.com.hk",
 "website": "http://www.theglobe.com.hk",
 "facebook": "https://www.facebook.com/TheGlobeHK/",
 "twitter": "https://twitter.com/theglobehk",
@@ -447,7 +447,7 @@
 }
 {
 "name": "The Tramline Liquor Company",
-"image": "NO TWITTER AND CANNOT EXTRACT FROM FACEBOOK",
+"image": "http://i.imgur.com/mM54S4J.png",
 "street": "78 Catchick Street",
 "coord": [0,0],
 "locality": "Kennedy Town",
@@ -479,7 +479,7 @@
 }
 {
 "name": "Tipping Point Brewing Company",
-"image": "http://imgur.com/0sDawr1",
+"image": "http://imgur.com/0sDawr1.jpg",
 "street": "79 Wyndham Street",
 "coord": [0,0],
 "locality": "Central",
@@ -490,7 +490,7 @@
 "website": "CANNOT FIND WEBSITE",
 "facebook": "https://www.facebook.com/tippingpointbrewingco/",
 "twitter": "https://twitter.com/tippingpointbc",
-"beerCountries": [],
+"beerCountries": ["USA"],
 "rating": 1
 }
 {
@@ -502,7 +502,7 @@
 "area": "New Territories",
 "type": ["Brewery"],
 "phone": "9543-4963",
-"email": "CANNOT FIND EMAIL",
+"email": "noemail@email.com",
 "website": "http://yardleybrothers.hk",
 "facebook": "https://www.facebook.com/YardleyBrothersBeer/",
 "twitter": "https://twitter.com/yardleybrothers",
@@ -511,13 +511,13 @@
 }
 {
 "name": "Young Master Ales",
-"image": "https://pbs.twimg.com/profile_images/378800000076473967/9810fc10b06315d84c6304b71d603242_400x400.png",
+"image": "http://i.imgur.com/uIYlC97.jpg",
 "street": "Unit 407 4F, Oceanic Industrial Centric, 2 Lee Lok Street",
 "coord": [0,0],
 "locality": "Ap Lei Chau",
 "area": "Hong Kong Island",
 "type": ["Brewery"],
-"phone": "CANNOT FIND PHONE",
+"phone": "NO PHONE",
 "email": "info@youngmasterales.com",
 "website": "http://www.youngmasterales.com",
 "facebook": "https://www.facebook.com/YoungMasterAles/",
@@ -525,5 +525,9 @@
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
+
+
+
+
 
 
