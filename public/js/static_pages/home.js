@@ -24,5 +24,48 @@ $(document).ready(function () {
     });
   };
 
-  bindFindVendorButton();
+
+  // utility function
+  var createNewImage = function (id, image, name) {
+    var newLine = '' +
+      '<div class="col-lg-3 col-md-4 col-xs-6 thumb">'+
+      '<a class="thumbnail" href="#">'+
+      '<img class="img-responsive"' + ' src=' + image + ' alt="' + name +'">' +
+      '</a>' +
+      '</div>';
+
+    $('#images').append(newLine);
+  };
+
+
+
+  var getAllVendors = function () {
+    $.ajax({
+      url: "/api/vendors",
+      method: "GET",
+      success: function (response, status) {
+        response.forEach(function (elem) {
+          createNewImage(elem._id, elem.image, elem.name);
+        });
+        //bindButtons();
+      },
+      error: function (response, status) {
+        console.log(response);
+      }
+    });
+  };
+
+
+
+
+
+
+
+  var init = function () {
+    getAllVendors();
+    bindFindVendorButton();
+  };
+
+  init();
+
 });
