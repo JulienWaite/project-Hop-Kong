@@ -2,3 +2,8 @@
   padding: 100px 30px 40px 0;
   text-align: center;
 }
+.thumbnail {
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: white;
+}
