@@ -17,10 +17,10 @@
 {
 "name": "Beerhound",
 "image": "http://i.imgur.com/h8OjUQP.png",
-"street": "CANNOT FIND ADDRESS",
+"street": "88 Somewhere Street",
 "coord": [0,0],
-"locality": "CANNOT FIND LOCALITY",
-"area": "CANNOT FIND AREA",
+"locality": "Central",
+"area": "Hong Kong Island",
 "type": ["Online Store"],
 "phone": "2553-3787",
 "email": "info@beerhound.com.hk",
@@ -33,12 +33,12 @@
 {
 "name": "Beers R Us",
 "image": "http://i.imgur.com/gXyNF84.png",
-"street": "CANNOT FIND ADDRESS",
+"street": "88 Somewhere Street",
 "coord": [0,0],
-"locality": "CANNOT FIND LOCALITY",
-"area": "CANNOT FIND AREA",
+"locality": "Central",
+"area": "Hong Kong Island",
 "type": ["Online Store"],
-"phone": "CANNOT FIND PHONE",
+"phone": "8888-8888",
 "email": "sales@beers-r-us.com",
 "website": "http://www.beersrus.hk",
 "facebook": "https://www.facebook.com/Beers-R-Us-358651907577798/",
@@ -54,7 +54,7 @@
 "locality": "Sheung Wan",
 "area": "Hong Kong Island",
 "type": ["Online Store"],
-"phone": "CANNOT FIND PHONE",
+"phone": "8888-8888",
 "email": "drink@bestbevhk.com",
 "website": "http://bestbevhk.com",
 "facebook": "https://www.facebook.com/BestbevHk/",
@@ -70,7 +70,7 @@
 "locality": "Wong Chuk Hang",
 "area": "Hong Kong Island",
 "type": ["Brewery"],
-"phone": "CANNOT FIND PHONE",
+"phone": "8888-8888",
 "email": "beer@blackkite.hk",
 "website": "http://blackkite.hk",
 "facebook": "https://www.facebook.com/blackkitebrewery/",
@@ -89,9 +89,9 @@
 "phone": "2885-0821",
 "email": "info@craftbrew.com.hk",
 "website": "http://craftbrew.com.hk",
-"facebook": "https://www.facebook.com/thecraftbeerco/",
+"facebook": "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
 "twitter": "https://twitter.com/CraftBrewCoHK",
-"beerCountries": ["Hong Kong","Scotland","USA"],
+"beerCountries": ["Hong Kong","Japan","New Zeakland","Scotland","USA"],
 "rating": 1
 }
 {
@@ -105,9 +105,9 @@
 "phone": "2246-8782",
 "email": "info@craftbrew.com.hk",
 "website": "http://craftbrew.com.hk",
-"facebook": "https://www.facebook.com/thecraftbeerco/",
+"facebook": "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
 "twitter": "https://twitter.com/CraftBrewCoHK",
-"beerCountries": ["Hong Kong","Scotland","USA"],
+"beerCountries": ["Hong Kong","Japan","New Zeakland","Scotland","USA"],
 "rating": 1
 }
 {
@@ -121,9 +121,9 @@
 "phone": "2559-0498",
 "email": "info@craftbrew.com.hk",
 "website": "http://craftbrew.com.hk",
-"facebook": "https://www.facebook.com/thecraftbeerco/",
+"facebook": "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
 "twitter": "https://twitter.com/CraftBrewCoHK",
-"beerCountries": ["Hong Kong","Scotland","USA"],
+"beerCountries": ["Hong Kong","Japan","New Zeakland","Scotland","USA"],
 "rating": 1
 }
 {
@@ -177,12 +177,12 @@
 {
 "name": "Gweilo Beer",
 "image": "http://i.imgur.com/geLBSVP.jpg",
-"street": "CANNOT FIND ADDRESS",
+"street": "88 Somewhere Street",
 "coord": [0,0],
 "locality": "Chai Wan",
 "area": "Hong Kong Island",
 "type": ["Brewery"],
-"phone": "CANNOT FIND PHONE",
+"phone": "8888-8888",
 "email": "info@gweilobeer.com",
 "website": "http://gweilobeer.com",
 "facebook": "https://www.facebook.com/gweilobeer/",
@@ -241,10 +241,10 @@
 {
 "name": "Kowloon Bay Brewery",
 "image": "http://i.imgur.com/S55RyqI.jpg",
-"street": "CANNOT FIND ADDRESS",
+"street": "88 Somewhere Street",
 "coord": [0,0],
-"locality": "Kowloon Bay",
-"area": "Kowloon",
+"locality": "Tsuen Wan",
+"area": "New Territories",
 "type": ["Brewery"],
 "phone": "2559-8218",
 "email": "ging.van@kowloonbaybrewery.com",
@@ -263,11 +263,11 @@
 "area": "Kowloon",
 "type": ["Craft Beer Bar"],
 "phone": "2861-0355",
-"email": "tbc@tbc.com",
+"email": "enquiry@kowloon-taproom.com",
 "website": "http://www.kowloon-taproom.com",
 "facebook": "NOT ON FACEBOOK",
 "twitter": "NOT ON TWITTER",
-"beerCountries": [],
+"beerCountries": ["Hong Kong", "USA"],
 "rating": 1
 }
 {
@@ -331,7 +331,7 @@
 "website": "https://sohowines.hk",
 "facebook": "https://www.facebook.com/SohoWines/",
 "twitter": "https://twitter.com/sohowines",
-"beerCountries": [],
+"beerCountries": ["USA"],
 "rating": 1
 }
 {
@@ -347,19 +347,19 @@
 "website": "https://sohowines.hk",
 "facebook": "https://www.facebook.com/SohoWines/",
 "twitter": "https://twitter.com/sohowines",
-"beerCountries": [],
+"beerCountries": ["USA"],
 "rating": 1
 }
 {
 "name": "Tai-Pan Beer Company",
 "image": "http://i.imgur.com/tefdtV5.jpg",
-"street": "CANNOT FIND ADDRESS",
+"street": "88 Somewhere Street",
 "coord": [0,0],
-"locality": "CANNOT FIND LOCALITY",
-"area": "CANNOT FIND AREA",
+"locality": "Sheung Wan",
+"area": "Hong Kong Island",
 "type": ["Online Store"],
-"phone": "CANNOT FIND PHONE",
-"email": "CANNOT FIND EMAIL",
+"phone": "8888-8888",
+"email": "notavailable@email.com",
 "website": "http://taipanbeer.com",
 "facebook": "https://www.facebook.com/TaiPanBeerCo",
 "twitter": "https://twitter.com/taipanbeerco",
@@ -375,11 +375,11 @@
 "area": "Kowloon",
 "type": ["Craft Beer Bar"],
 "phone": "2468-2010",
-"email": "tbc@tbc.com",
+"email": "info@thealeproject.com",
 "website": "http://www.thealeproject.com",
 "facebook": "https://www.facebook.com/thealeproject",
 "twitter": "https://twitter.com/thealeproject",
-"beerCountries": [],
+"beerCountries": ["Hong Kong","USA"],
 "rating": 1
 }
 {
@@ -394,8 +394,8 @@
 "email": "notavailable@email.com",
 "website": "http://www.thebeerbay.com.hk",
 "facebook": "https://www.facebook.com/bbpier3and4/",
-"twitter": "CANNOT FIND ON TWITTER",
-"beerCountries": [],
+"twitter": "NOT ON TWITTER",
+"beerCountries": ["England","Scotland"],
 "rating": 1
 }
 {
@@ -411,7 +411,7 @@
 "website": "http://thebottleshop.hk",
 "facebook": "https://www.facebook.com/thebottleshop.hk/",
 "twitter": "https://twitter.com/thebottleshophk",
-"beerCountries": [],
+"beerCountries": ["Australia","Belgium","Canada","England","Hong Kong","Japan","New Zealand","Scotland","USA"],
 "rating": 1
 }
 {
@@ -426,12 +426,12 @@
 "website": "http://www.theglobe.com.hk",
 "facebook": "https://www.facebook.com/TheGlobeHK/",
 "twitter": "https://twitter.com/theglobehk",
-"beerCountries" : ["Australia","England","Hong Kong","USA"],
+"beerCountries" : ["Australia","England","Hong Kong","Scotland","USA"],
 "rating": 10
 }
 {
-"name": "The Roundhouse Taproom",
-"image": "https://pbs.twimg.com/profile_images/378800000323311085/1263a9120ebc629296a86933de312922_400x400.jpeg",
+"name": "The Roundhouse Taproom (Central)",
+"image": "http://i.imgur.com/LYJ8Zbf.jpg",
 "street": "62 Peel Street",
 "coord": [0,0],
 "locality": "Central",
@@ -442,7 +442,7 @@
 "website": "http://roundhouse.com.hk",
 "facebook": "https://www.facebook.com/RoundhouseKB/",
 "twitter": "https://twitter.com/roundhouse_taps",
-"beerCountries": [],
+"beerCountries": ["USA"],
 "rating": 1
 }
 {
@@ -457,13 +457,13 @@
 "email": "CANNOT FIND EMAIL",
 "website": "http://thetramlineliquorco.hk",
 "facebook": "https://www.facebook.com/thetramlineliquorco/",
-"twitter": "CANNOT FIND TWITTER",
+"twitter": "NOT ON TWITTER",
 "beerCountries": ["Australia","Belgium","Hong Kong","New Zealand","Scotland"],
 "rating": 1
 }
 {
 "name": "Thirsty Brothers",
-"image": "https://pbs.twimg.com/profile_images/2623559495/Thirsty_Brothers_Logo_400x400.jpg",
+"image": "http://i.imgur.com/yXjPSBG.jpg",
 "street": "Room B, 11F, BoldWin Industrial Building, 16-18 Wah Sing Street",
 "coord": [0,0],
 "locality": "Kwai Chung",
@@ -517,7 +517,7 @@
 "locality": "Ap Lei Chau",
 "area": "Hong Kong Island",
 "type": ["Brewery"],
-"phone": "NO PHONE",
+"phone": "8888-8888",
 "email": "info@youngmasterales.com",
 "website": "http://www.youngmasterales.com",
 "facebook": "https://www.facebook.com/YoungMasterAles/",
@@ -525,7 +525,102 @@
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
-
+{
+"name": "De Belgie",
+"image": "http://i.imgur.com/NvzFNwe.jpg",
+"street": "21 Elgin Street",
+"coord": [0,0],
+"locality": "Central",
+"area": "Hong Kong Island",
+"type": ["Craft Beer Bar"],
+"phone": "2869-8388",
+"email": "",
+"website": "http://www.belgie-group.com/",
+"facebook": "https://www.facebook.com/deBelgiehk",
+"twitter": "https://twitter.com/de_Belgie",
+"beerCountries": ["Belgium"],
+"rating": 1
+}
+{
+"name": "Moonzen Brewery",
+"image": "http://i.imgur.com/CvKr11p.jpg",
+"street": "",
+"coord": [0,0],
+"locality": "",
+"area": "",
+"type": ["Brewery"],
+"phone": "",
+"email": "beer@moonzen.hk",
+"website": "http://moonzen.hk ",
+"facebook": "",
+"twitter": "",
+"beerCountries": [],
+"rating": 1
+}
+{
+"name": "Craft Revolution",
+"image": "http://i.imgur.com/iDVUpzO.jpg?1",
+"street": "24 Square Street",
+"coord": [0,0],
+"locality": "Sheung Wan",
+"area": "Hong Kong Island",
+"type": ["Craft Beer Bar"],
+"phone": "8888-8888",
+"email": "craftrevolution@hkbeerco.com",
+"website": "",
+"facebook": "https://www.facebook.com/craftrevolutionhk/",
+"twitter": "https://twitter.com/craftrevhk",
+"beerCountries": ["Hong Kong","USA"],
+"rating": 1
+}
+{
+"name": "COEDO Taproom",
+"image": "http://i.imgur.com/ziHJc3o.png",
+"street": "Shop C, G/F, 50-56 Paterson Street",
+"coord": [0,0],
+"locality": "Causeway Bay",
+"area": "Hong Kong Island",
+"type": ["Craft Beer Bar"],
+"phone": "2619-9011",
+"email": "info@coedobrewery.com",
+"website": "http://www.coedobrewery.com/en/taproomhk/",
+"facebook": "https://www.facebook.com/CoedoHongKong",
+"twitter": "",
+"beerCountries": ["Japan"],
+"rating": 1
+}
+{
+"name": "The Roundhouse Taproom (Wan Chai)",
+"image": "http://i.imgur.com/RTZAy21.jpg",
+"street": "29 Ammo Street",
+"coord": [0,0],
+"locality": "Wan Chai",
+"area": "Hong Kong Island",
+"type": ["Craft Beer Bar"],
+"phone": "",
+"email": "",
+"website": "",
+"facebook": "https://www.facebook.com/RoundhouseKB",
+"twitter": "https://twitter.com/roundhouse_taps",
+"beerCountries": ["USA"],
+"rating": 1
+}
+{
+"name": "Kiuchi Brewery/Hitachino Nest",
+"image": "http://i.imgur.com/ovuC3Dk.jpg",
+"street": "To Be Confirmed",
+"coord": [0,0],
+"locality": "Fo Tan",
+"area": "New Territories",
+"type": ["Brewery"],
+"phone": "8888-8888",
+"email": "",
+"website": "http://www.kodawari.cc",
+"facebook": "",
+"twitter": "",
+"beerCountries": ["Japan"],
+"rating": 1
+}
 
 
 

@@ -1,4 +1,9 @@
-body {
+@font-face {
+  font-family: myFirstFont;
+  src: url(/public/css/layouts/AprilsHandwriting-Regular.otf);
+  color: #fffafa;
+}
+  body {
   background: url(/public/images/hong-kong-skyline.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
