@@ -1,4 +1,4 @@
-var Authenticated = require("./modules/Authenticated.js");
+var Authenticated = require("./modules/authenticated.js");
 var Joi    = require('joi');
 
 exports.register = function (server, options, next) {
@@ -37,7 +37,7 @@ exports.register = function (server, options, next) {
           }
 
           if (request.query.vendorLocality) {
-            query.locality = request.query.locality;
+            query.locality = request.query.vendorLocality; //changed second one
           }
 
           db.collection('vendors').find(query).toArray(function(err, vendors){
@@ -85,6 +85,6 @@ exports.register = function (server, options, next) {
 };
 
 exports.register.attributes = {
-  name: 'static-pages-views',  // ASK DENIS IF THIS SHOULD BE CHANGED
+  name: 'pages-views',
   version: '0.0.1'
 };

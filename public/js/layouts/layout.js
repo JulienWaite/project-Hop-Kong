@@ -70,8 +70,6 @@ $(document).ready(function () {
       });
     });
   };
-
-
   var init = function () {
     bindSignout();
     bindSignup();
