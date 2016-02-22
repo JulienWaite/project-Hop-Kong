@@ -1,0 +1,32 @@
+<div id="vendor-page">
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-5 col-xs-12">
+      <img class ="image img-responsive" src="<%= vendor.image%>">
+    </div>
+    <div class="col-lg-7 col-xs-12">
+      <H1><%= vendor.name%></h1>
+      <h3><%= vendor.type%></h3>
+      <p>Beers from <%= vendor.beerCountries%>
+      <p>Address: <%= vendor.street%>, <%= vendor.locality%></p>
+      <p>Phone: <%= vendor.phone%></p>
+      <p>Email: <%= vendor.email%></p>
+
+      <% if (vendor.website) { %>
+        <a class="icon" href="<%=vendor.website%>" target="_blank"><img src="http://i.imgur.com/67qFyGS.png" alt=""></a>
+      <% } %>
+      <% if (vendor.facebook) { %>
+        <a class="icon" href="<%=vendor.facebook%>" target="_blank"><img src="http://i.imgur.com/6zsRPYd.png" alt=""></a>
+      <% } %>
+      <% if (vendor.twitter) { %>
+        <a class="icon" href="<%=vendor.twitter%>" target="_blank"><img src="http://i.imgur.com/RcPZbjs.png" alt=""></a>
+      <% } %>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="/public/css/pages/vendors.css">
+<script src="/public/js/pages/vendors.js"></script>
+<!-- style sheet link -->

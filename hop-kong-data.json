@@ -11,7 +11,7 @@
 "website": "http://americraftimports.com",
 "facebook": "https://www.facebook.com/americraftimports/",
 "twitter": "https://twitter.com/americrafthk",
-"beerCountries": ["America"],
+"beerCountries": ["USA"],
 "rating": 10
 }
 {
@@ -27,7 +27,7 @@
 "website": "http://www.beerhound.com.hk",
 "facebook": "https://www.facebook.com/Beerhound-159350884216521/",
 "twitter": "https://twitter.com/beerhoundhk",
-"beerCountries": [],
+"beerCountries": ["USA"],
 "rating": 1
 }
 {
@@ -91,7 +91,7 @@
 "website": "http://craftbrew.com.hk",
 "facebook": "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
 "twitter": "https://twitter.com/CraftBrewCoHK",
-"beerCountries": ["Hong Kong","Japan","New Zeakland","Scotland","USA"],
+"beerCountries": ["Hong Kong","Japan","New Zealand","Scotland","USA"],
 "rating": 1
 }
 {
@@ -107,7 +107,7 @@
 "website": "http://craftbrew.com.hk",
 "facebook": "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
 "twitter": "https://twitter.com/CraftBrewCoHK",
-"beerCountries": ["Hong Kong","Japan","New Zeakland","Scotland","USA"],
+"beerCountries": ["Hong Kong","Japan","New Zealand","Scotland","USA"],
 "rating": 1
 }
 {
@@ -123,7 +123,7 @@
 "website": "http://craftbrew.com.hk",
 "facebook": "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
 "twitter": "https://twitter.com/CraftBrewCoHK",
-"beerCountries": ["Hong Kong","Japan","New Zeakland","Scotland","USA"],
+"beerCountries": ["Hong Kong","Japan","New Zealand","Scotland","USA"],
 "rating": 1
 }
 {
@@ -139,7 +139,7 @@
 "website": "http://www.craftissimo.hk",
 "facebook": "https://www.facebook.com/Craftissimo/",
 "twitter": "https://twitter.com/craftissimohk",
-"beerCountries": [],
+"beerCountries": ["USA"],
 "rating": 1
 }
 {
@@ -155,7 +155,7 @@
 "website": "http://www.craftissimo.hk",
 "facebook": "https://www.facebook.com/Craftissimo/",
 "twitter": "https://twitter.com/craftissimohk",
-"beerCountries": [],
+"beerCountries": ["USA"],
 "rating": 1
 }
 {
@@ -171,7 +171,7 @@
 "website": "http://www.craftycow.hk",
 "facebook": "https://www.facebook.com/Crafty-Cow-HK-1518573841786370",
 "twitter": "https://twitter.com/craftycowhk",
-"beerCountries": [],
+"beerCountries": ["USA"],
 "rating": 1
 }
 {
@@ -249,7 +249,7 @@
 "phone": "2559-8218",
 "email": "ging.van@kowloonbaybrewery.com",
 "website": "http://www.kowloonbaybrewery.com",
-"facebook": "NOT ON FACEBOOK",
+"facebook": "https://www.facebook.com/KowloonBayBrewery/",
 "twitter": "https://twitter.com/kowloonbb",
 "beerCountries": ["Hong Kong"],
 "rating": 1
@@ -265,8 +265,8 @@
 "phone": "2861-0355",
 "email": "enquiry@kowloon-taproom.com",
 "website": "http://www.kowloon-taproom.com",
-"facebook": "NOT ON FACEBOOK",
-"twitter": "NOT ON TWITTER",
+"facebook": "",
+"twitter": "",
 "beerCountries": ["Hong Kong", "USA"],
 "rating": 1
 }
@@ -283,7 +283,7 @@
 "website": "http://www.littlebeerroom.com",
 "facebook": "https://www.facebook.com/littlebeerroom/",
 "twitter": "https://twitter.com/littlebeerroom",
-"beerCountries": [],
+"beerCountries": ["USA"],
 "rating": 1
 }
 {
@@ -298,7 +298,7 @@
 "email": "simon@ninedragons.hk",
 "website": "http://www.ninedragons.hk",
 "facebook": "https://www.facebook.com/Nine-Dragons-Brewery-1416098798643067/",
-"twitter": "NOT ON TWITTER",
+"twitter": "",
 "beerCountries": ["Hong Kong"],
 "rating": 1
 }
@@ -315,7 +315,7 @@
 "website": "http://www.sips.hk",
 "facebook": "https://www.facebook.com/sipshk/",
 "twitter": "https://twitter.com/sipshk?lang=en",
-"beerCountries": [],
+"beerCountries": ["England"],
 "rating": 1
 }
 {
@@ -394,7 +394,7 @@
 "email": "notavailable@email.com",
 "website": "http://www.thebeerbay.com.hk",
 "facebook": "https://www.facebook.com/bbpier3and4/",
-"twitter": "NOT ON TWITTER",
+"twitter": "",
 "beerCountries": ["England","Scotland"],
 "rating": 1
 }
@@ -457,7 +457,7 @@
 "email": "CANNOT FIND EMAIL",
 "website": "http://thetramlineliquorco.hk",
 "facebook": "https://www.facebook.com/thetramlineliquorco/",
-"twitter": "NOT ON TWITTER",
+"twitter": "",
 "beerCountries": ["Australia","Belgium","Hong Kong","New Zealand","Scotland"],
 "rating": 1
 }
@@ -487,7 +487,7 @@
 "type": ["Craft Beer Bar"],
 "phone": "2868-2892",
 "email": "tippingpointbrewing@outlook.com",
-"website": "CANNOT FIND WEBSITE",
+"website": "",
 "facebook": "https://www.facebook.com/tippingpointbrewingco/",
 "twitter": "https://twitter.com/tippingpointbc",
 "beerCountries": ["USA"],
@@ -554,7 +554,7 @@
 "website": "http://moonzen.hk ",
 "facebook": "",
 "twitter": "",
-"beerCountries": [],
+"beerCountries": ["Hong Kong"],
 "rating": 1
 }
 {
@@ -621,6 +621,23 @@
 "beerCountries": ["Japan"],
 "rating": 1
 }
+{
+"name": "Granville Island",
+"image": "http://i.imgur.com/HkylMYB.jpg",
+"street": "64 High Street",
+"coord": [0,0],
+"locality": "Sai Ying Pun",
+"area": "Hong Kong Island",
+"type": ["Craft Beer Bar"],
+"phone": "",
+"email": "",
+"website": "",
+"facebook": "https://www.facebook.com/Granville.Island.HK/",
+"twitter": "",
+"beerCountries": ["USA"],
+"rating": 1
+}
+
 
 
 

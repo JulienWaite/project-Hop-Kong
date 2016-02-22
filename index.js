@@ -12,7 +12,7 @@ server.connection({
 var plugins = [
   { register: require('vision')}, // views
   { register: require('inert')}, // public files hosting
-  { register: require('./routes/static_pages.js')},
+  { register: require('./routes/pages.js')},
   // { register: require('./routes/auth.js')}, // not required with modals
   { register: require('./routes/api/auth.js')},
   { register: require('./routes/api/vendors.js')}, // added for vendors

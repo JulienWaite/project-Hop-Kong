@@ -3,12 +3,14 @@
   src: url(/public/css/layouts/AprilsHandwriting-Regular.otf);
   color: #fffafa;
 }
-  body {
+
+body {
   background: url(/public/images/hong-kong-skyline.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: myFirstFont;
 }
 
 .fixed-navbar {
