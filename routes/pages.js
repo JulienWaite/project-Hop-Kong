@@ -1,5 +1,5 @@
 var Authenticated = require("./modules/Authenticated.js");
-var Joi    = require('joi'); // Carmen code
+var Joi    = require('joi');
 
 exports.register = function (server, options, next) {
   server.route([
@@ -27,13 +27,18 @@ exports.register = function (server, options, next) {
           var db = request.server.plugins['hapi-mongodb'].db; // get the db address
 
           var query = {};
-          if (request.query.type) {
-            query.type = { $in : [request.query.type] };
+          console.log(request.query);
+          if (request.query.vendorType) {
+            query.type = { $in : [request.query.vendorType] };
           }
-          if (request.query.beerCountries) {
-            query.beerCountries = { $in : [request.query.beerCountries] };
+
+          if (request.query.beerCountry) {
+            query.beerCountry = { $in : [request.query.beerCountry] };
           }
-          if (request.query.locality)      { query.locality = request.query.locality; }
+
+          if (request.query.vendorLocality) {
+            query.locality = request.query.locality;
+          }
 
           db.collection('vendors').find(query).toArray(function(err, vendors){
             var data = {
@@ -80,6 +85,6 @@ exports.register = function (server, options, next) {
 };
 
 exports.register.attributes = {
-  name: 'static-pages-views',
+  name: 'static-pages-views',  // ASK DENIS IF THIS SHOULD BE CHANGED
   version: '0.0.1'
 };

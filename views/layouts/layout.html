@@ -25,19 +25,23 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <form class="navbar-form navbar-left" role="search">
-        <P>GUEST</P>
+
         </form>
         <ul class="nav navbar-nav navbar-right">
           <% if (!authenticated) { %>
             <li>
-              <button class="btn btn-default" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+              <P>GUEST</P>
             </li>
             <li>
-              <button class="btn btn-default" data-toggle="modal" data-target="#signinModal">Sign In</button>
+              <button class="btn btn-default btn-responsive" data-toggle="modal" data-target="#signupModal">Sign Up</button>
             </li>
+            <li>
+              <button class="btn btn-default btn-responsive" data-toggle="modal" data-target="#signinModal">Sign In</button>
+            </li>
+
           <% } else { %>
             <li>
-              <button id="signout-btn" class="btn btn-default">Sign Out</button>
+              <button id="signout-btn" class="btn btn-success btn-responsive">Sign Out</button>
             </li>
           <% } %>
         </ul>

@@ -1,18 +1,9 @@
 $(document).ready(function () {
 
-  var bindFindVendorButton = function () {
-    $('#find-vendor-btn').off().on("click", function (e) {
-      //window.location.href = "/hopkong?locality=Central";
-    });
-  };
-
-
+  // disable fields when brewery or online store are selected
   var $vendortype = $('#vendor-type');
-  //$('#vendor-type').on('change', function(){console.log("it changed"); });
   $('#vendor-type').on('change', function(){console.log($vendortype.val());
-
     if (($vendortype.val()) === "Brewery") {
-      console.log("Hello");
       $('#beer-country').selectpicker('val', 'Hong Kong');
       $('#hk-locality').selectpicker('val', 'All locations');
       $('#beer-country').prop('disabled', true);
@@ -21,10 +12,11 @@ $(document).ready(function () {
       $('#hk-locality').selectpicker('refresh');
     }
     if (($vendortype.val()) === "Online Store") {
-      console.log("Hello");
       $('#hk-locality').selectpicker('val', 'All locations');
       $('#hk-locality').prop('disabled', true);
       $('#hk-locality').selectpicker('refresh');
+      $('#beer-country').prop('disabled', false);
+      $('#beer-country').selectpicker('refresh');
     }
     if (($vendortype.val()) === "Retail Store" || ($vendortype.val()) === "Craft Beer Bar") {
       $('#hk-locality').prop('disabled', false);
@@ -32,11 +24,23 @@ $(document).ready(function () {
       $('#beer-country').prop('disabled', false);
       $('#beer-country').selectpicker('refresh');
     }
-    else console.log("It doesn't work");
-      // $('#vendor-type').on('change', function(){
-      //  console.log("it changed");
-      // });
   });
+
+  var bindFindVendorButton = function () {
+    $('#find-vendor-btn').off().on("click", function (e) {
+      e.preventDefault();
+
+      var filters = {
+        vendorType    :   $("#vendor-type").val(),
+        vendorLocality:   $("#hk-locality").val(),
+        beerCountry   :   $("#beer-country").val()
+      };
+
+      //console.log($.param(filters));
+      window.location.href="/hopkong?" + $.param(filters);
+
+    });
+  };
 
   var init = function () {
     bindFindVendorButton();

@@ -9,7 +9,9 @@ exports.register = function (server, options, next) {
         var db = request.server.plugins['hapi-mongodb'].db;
 
         db.collection('vendors').find().toArray(function(err, vendors){
-          if (err) { return reply(err).code(400); }
+          if (err) {
+            return reply(err).code(400);
+          }
           reply(vendors).code(200);
 
           //var tempVendors = [
