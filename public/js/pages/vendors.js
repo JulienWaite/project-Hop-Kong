@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('#bookmark-btn').off().on("click", function (e) {
       e.preventDefault();
 
-      var vendor_id = window.location.pathname.split('/vendors/')[1];
+      var vendor_id = window.location.pathname.split('/vendors/')[1]; // just obtaims the id displayed in the window
 
       $.ajax({
         method: "POST",

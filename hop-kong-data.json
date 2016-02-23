@@ -403,7 +403,7 @@
 "facebook": "https://www.facebook.com/thealeproject",
 "twitter": "https://twitter.com/thealeproject",
 "instagram": "https://www.instagram.com/TheAleProject/",
-"beerCountry": ["Hong Kong","USA"],
+"beerCountry": ["Hong Kong", "USA"],
 "rating": 1
 }
 {
@@ -453,7 +453,7 @@
 "facebook": "https://www.facebook.com/TheGlobeHK/",
 "twitter": "https://twitter.com/theglobehk",
 "instagram": "",
-"beerCountry" : ["Australia","England","Hong Kong","Scotland","USA"],
+"beerCountry" : ["Australia", "Belgium", "England", "Hong Kong", "Scotland", "USA"],
 "rating": 10
 }
 {
@@ -504,7 +504,7 @@
 "facebook": "https://www.facebook.com/ThirstyBrothersHK/",
 "twitter": "https://twitter.com/thirstybrothers",
 "instagram": "https://www.instagram.com/thirstybrothers/",
-"beerCountry": ["Canada","Japan","Scotland"],
+"beerCountry": ["Canada", "Japan", "Scotland"],
 "rating": 1
 }
 {
@@ -606,7 +606,7 @@
 "facebook": "https://www.facebook.com/craftrevolutionhk/",
 "twitter": "https://twitter.com/craftrevhk",
 "instagram": "",
-"beerCountry": ["Hong Kong","USA"],
+"beerCountry": ["Hong Kong", "USA"],
 "rating": 1
 }
 {

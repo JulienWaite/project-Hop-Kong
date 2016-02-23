@@ -23,11 +23,11 @@ exports.register = function (server, options, next) {
       method: 'GET',
       path: '/hopkong',
       handler: function(request, reply) {
-        Authenticated(request, function (result) {
+        Authenticated(request, function (result) {  // include the results of user authentication
           var db = request.server.plugins['hapi-mongodb'].db; // get the db address
 
           var query = {};
-          console.log(request.query);
+          //console.log(request.query);
           if (request.query.vendorType) {
             query.type = { $in : [request.query.vendorType] };
           }
@@ -56,12 +56,12 @@ exports.register = function (server, options, next) {
      method: 'GET',
      path: '/vendors/{id}',
      handler: function (request, reply) {
-       Authenticated(request, function (result) {
+       Authenticated(request, function (result) { // include the results of user authentication
          var db = request.server.plugins['hapi-mongodb'].db; // get the db address
          var ObjectID = request.server.plugins['hapi-mongodb'].ObjectID;
 
          var vendor_id = ObjectID(request.params.id);
-         var user_id = ObjectID(result.user._id);
+         var user_id = result.user ? ObjectID(result.user._id) : null;
 
          db.collection('vendors').findOne({"_id": vendor_id}, function (err, vendor) {
            if (err) { return reply(err); }
@@ -83,7 +83,7 @@ exports.register = function (server, options, next) {
             };
 
             reply.view('pages/vendors', data).code(200);
-           });
+          });
          });
        });
      }
@@ -93,15 +93,21 @@ exports.register = function (server, options, next) {
       path: '/bookmarks',
       handler: function(request, reply) {
         Authenticated(request, function (result) {
+          var db = request.server.plugins['hapi-mongodb'].db; // get the db address
 
+          var query = {};
 
-          var data = {
-            user: result.user,
-            authenticated: result.authenticated,
-            bookmarks: [{test: "test1"},{test: "test2"}]
-          };
+          db.collection('bookmarks').find(query).toArray(function(err, bookmarks){
+            var data = {
+              user: result.user,
+              authenticated: result.authenticated,
+              //bookmarks: [{test: "test1"},{test: "test2"}]
+              bookmarks: bookmarks
+            };
+            console.log(data);
 
-          reply.view('pages/bookmarks', data).code(200);
+            reply.view('pages/bookmarks', data).code(200);
+          });
         });
       }
     }

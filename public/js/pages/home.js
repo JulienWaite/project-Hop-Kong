@@ -1,30 +1,60 @@
 $(document).ready(function () {
 
   // disable fields when brewery or online store are selected
+
   var $vendortype = $('#vendor-type');
-  $('#vendor-type').on('change', function(){console.log($vendortype.val());
-    if (($vendortype.val()) === "Brewery") {
-      $('#beer-country').selectpicker('val', 'Hong Kong');
-      $('#hk-locality').selectpicker('val', 'All locations');
-      $('#beer-country').prop('disabled', true);
-      $('#beer-country').selectpicker('refresh');
-      $('#hk-locality').prop('disabled', true);
-      $('#hk-locality').selectpicker('refresh');
+  var $hklocality = $('#hk-locality');
+  var $beercountry = $('#beer-country');
+
+  var onVendorTypeChanged = function() {
+    if ($vendortype.val() === "Brewery") {
+      $hklocality.selectpicker('val', 'All Locations');
+      $beercountry.selectpicker('val', 'Hong Kong');
+      $beercountry.prop('disabled', true);
+      $beercountry.selectpicker('refresh');
+      $hklocality.prop('disabled', true);
+      $hklocality.selectpicker('refresh');
     }
-    if (($vendortype.val()) === "Online Store") {
-      $('#hk-locality').selectpicker('val', 'All locations');
-      $('#hk-locality').prop('disabled', true);
-      $('#hk-locality').selectpicker('refresh');
-      $('#beer-country').prop('disabled', false);
-      $('#beer-country').selectpicker('refresh');
+    if ($vendortype.val() === "Online Store") {
+      $hklocality.selectpicker('val', 'All Locations');
+      $hklocality.prop('disabled', true);
+      $hklocality.selectpicker('refresh');
+      $beercountry.prop('disabled', false);
+      $beercountry.selectpicker('refresh');
     }
-    if (($vendortype.val()) === "Retail Store" || ($vendortype.val()) === "Craft Beer Bar") {
-      $('#hk-locality').prop('disabled', false);
-      $('#hk-locality').selectpicker('refresh');
-      $('#beer-country').prop('disabled', false);
-      $('#beer-country').selectpicker('refresh');
+    if ($vendortype.val() === "All Vendors" || $vendortype.val() === "Retail Store" || $vendortype.val() === "Craft Beer Bar") {
+      $hklocality.prop('disabled', false);
+      $hklocality.selectpicker('refresh');
+      $beercountry.prop('disabled', false);
+      $beercountry.selectpicker('refresh');
     }
+  };
+
+  $('#vendor-type').off().on('change', function(){
+    //console.log($vendortype.val());
+    localStorage.hopkongVendorType = $vendortype.val(); // storing the selections for the session
+    onVendorTypeChanged();
+    localStorage.hopkongHKLocality = $hklocality.val();
+    localStorage.hopkongBeerCountry = $beercountry.val();
   });
+
+  $hklocality.off().on('change', function(){
+    localStorage.hopkongHKLocality = $hklocality.val(); // storing the selections for the session
+  });
+
+  $beercountry.off().on('change', function(){
+    localStorage.hopkongBeerCountry = $beercountry.val(); // storing the selections for the session
+  });
+
+  var setFilterValFromStorage = function($filter, storageKey, defaultVal) {
+    var localValue = localStorage[storageKey];
+    if (localValue == null) {
+      localStorage.setItem(storageKey, defaultVal);
+    } else {
+      $filter.selectpicker('val', localValue);
+      $filter.selectpicker('refresh');
+    }
+  };
 
   var bindFindVendorButton = function () {
     $('#find-vendor-btn').off().on("click", function (e) {
@@ -44,7 +74,18 @@ $(document).ready(function () {
 
   var init = function () {
     bindFindVendorButton();
+
+    $vendortype.selectpicker();
+    $hklocality.selectpicker();
+    $beercountry.selectpicker();
+
+    setFilterValFromStorage($vendortype, 'hopkongVendorType', 'All Vendors');
+    onVendorTypeChanged();
+    setFilterValFromStorage($hklocality, 'hopkongHKLocality', 'All Locations');
+    setFilterValFromStorage($beercountry, 'hopkongBeerCountry', 'All Countries');
   };
+
+
 
   init();
   // var bindFindVendorButton = function () {
