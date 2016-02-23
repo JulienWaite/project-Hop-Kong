@@ -59,6 +59,7 @@
           <li><button class="btn btn-default btn-responsive" data-toggle="modal" data-target="#signupModal">Sign Up</button></li>
           <li><button class="btn btn-default btn-responsive" data-toggle="modal" data-target="#signinModal">Sign In</button></li>
         <% } else { %>
+          <li><p><%= user.username%></p></li>
           <li><button id="signout-btn" class="btn btn-success btn-responsive">Sign Out</button></li>
         <% } %>
         </ul>

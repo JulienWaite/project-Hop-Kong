@@ -5,8 +5,14 @@
   <div class="row">
     <div class="col-md-7 col-xs-12">
       <h1><%= vendor.name%></h1>
-      <button id="bookmark-btn" class="btn btn-default btn-responsive btn-success">Add to Bookmarks</button>
       <p>(<%= vendor.type%>)</p>
+
+      <% if (authenticated) { %>
+         <button id="bookmark-btn" class="btn btn-default btn-responsive btn-success">Add to Bookmarks</button>
+        <% } else { %>
+        <p>Please login to save bookmark</p>
+        <% } %>
+
       <p>Beers from <%= vendor.beerCountry%>
       <p>Address: <%= vendor.street%>, <%= vendor.locality%></p>
       <p>Phone: <%= vendor.phone%></p>

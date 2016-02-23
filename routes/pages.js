@@ -43,6 +43,7 @@ exports.register = function (server, options, next) {
           db.collection('vendors').find(query).toArray(function(err, vendors){
             var data = {
               vendors: vendors,
+              user: result.user,
               authenticated: result.authenticated
             };
 
@@ -51,12 +52,12 @@ exports.register = function (server, options, next) {
         });
       }
     },
-    { // Get ONE vendor
+    { // Get ONE vendor for Vendors page
      method: 'GET',
      path: '/vendors/{id}',
      handler: function (request, reply) {
        Authenticated(request, function (result) {
-         var db = request.server.plugins['hapi-mongodb'].db;
+         var db = request.server.plugins['hapi-mongodb'].db; // get the db address
          var ObjectID = request.server.plugins['hapi-mongodb'].ObjectID;
 
          var id = ObjectID(request.params.id);
@@ -64,7 +65,13 @@ exports.register = function (server, options, next) {
          db.collection('vendors').findOne({"_id": id}, function (err, vendor) {
            if (err) { return reply(err); }
            // reply(results).code(200);
-           reply.view('pages/vendors', {vendor: vendor, authenticated: result.authenticated}).code(200);
+
+           var data = {
+            vendor: vendor,
+            user: result.user,
+            authenticated: result.authenticated
+          };
+           reply.view('pages/vendors', data).code(200);
          });
        });
      }
@@ -74,7 +81,12 @@ exports.register = function (server, options, next) {
       path: '/bookmarks',
       handler: function(request, reply) {
         Authenticated(request, function (result) {
-          var data = result; // need to have authenticated in order to show signout button
+
+          var data = {
+            user: result.user,
+            authenticated: result.authenticated
+          };
+
           reply.view('pages/bookmarks', data).code(200);
         });
       }
