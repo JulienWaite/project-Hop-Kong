@@ -5,6 +5,7 @@
 }
 
 body {
+  /*background: url(/public/images/hong-kong-skyline.jpg) no-repeat center center fixed;*/
   background: url(/public/images/hong-kong-skyline.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -78,7 +79,7 @@ body {
 
 @media (min-width: 992px) {
   .navbar-nav > li a {
-    padding: 0 36px;
+    padding: 0 48px;
   }
 }
 
