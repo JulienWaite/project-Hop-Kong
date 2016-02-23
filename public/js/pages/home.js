@@ -37,7 +37,7 @@ $(document).ready(function () {
       };
 
       //console.log($.param(filters));
-      window.location.href="/hopkong?" + $.param(filters);
+      window.location.href="/hopkong?" + $.param(filters); // redirects to a new page using the parameters selected above
 
     });
   };
