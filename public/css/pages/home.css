@@ -1,6 +1,11 @@
 #find-options {
-  padding: 100px 30px 40px 0;
+  padding: 150px 30px 40px 0;
   text-align: center;
+  margin: 15px;
+}
+.selectpicker
+{
+  font-size: 20px;
 }
 .thumbnail {
   border-radius: 10px;

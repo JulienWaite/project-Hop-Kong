@@ -37,7 +37,7 @@ exports.register = function (server, options, next) {
           }
 
           if (request.query.vendorLocality) {
-            query.locality = request.query.vendorLocality; //changed second one
+            query.locality = request.query.vendorLocality;
           }
 
           db.collection('vendors').find(query).toArray(function(err, vendors){
@@ -69,7 +69,7 @@ exports.register = function (server, options, next) {
        });
      }
     },
-    { // Bookmarks
+    { // Get all bookmarks
       method: 'GET',
       path: '/bookmarks',
       handler: function(request, reply) {

@@ -3,27 +3,31 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-5 col-xs-12">
-      <img class ="image img-responsive" src="<%= vendor.image%>">
-    </div>
-    <div class="col-lg-7 col-xs-12">
-      <H1><%= vendor.name%></h1>
-      <h3><%= vendor.type%></h3>
+    <div class="col-md-7 col-xs-12">
+      <h1><%= vendor.name%></h1>
+      <button id="bookmark-btn" class="btn btn-default btn-responsive btn-success">Add to Bookmarks</button>
+      <p>(<%= vendor.type%>)</p>
       <p>Beers from <%= vendor.beerCountry%>
       <p>Address: <%= vendor.street%>, <%= vendor.locality%></p>
       <p>Phone: <%= vendor.phone%></p>
       <p>Email: <%= vendor.email%></p>
 
       <% if (vendor.website) { %>
-        <a class="icon" href="<%=vendor.website%>" target="_blank"><img src="http://i.imgur.com/67qFyGS.png" alt=""></a>
+        <a class="icon" href="<%=vendor.website%>" target="_blank"><img src="http://i.imgur.com/67qFyGS.png" alt="website"></a>
       <% } %>
       <% if (vendor.facebook) { %>
-        <a class="icon" href="<%=vendor.facebook%>" target="_blank"><img src="http://i.imgur.com/6zsRPYd.png" alt=""></a>
+        <a class="icon" href="<%=vendor.facebook%>" target="_blank"><img src="http://i.imgur.com/6zsRPYd.png" alt="facebook"></a>
       <% } %>
       <% if (vendor.twitter) { %>
-        <a class="icon" href="<%=vendor.twitter%>" target="_blank"><img src="http://i.imgur.com/RcPZbjs.png" alt=""></a>
+        <a class="icon" href="<%=vendor.twitter%>" target="_blank"><img src="http://i.imgur.com/RcPZbjs.png" alt="twitter"></a>
+      <% } %>
+      <% if (vendor.instagram) { %>
+        <a class="icon" href="<%=vendor.instagram%>" target="_blank"><img src="http://i.imgur.com/TPn5AyI.png" alt="instagram"></a>
       <% } %>
     </div>
+     <div class="col-md-5 col-xs-12">
+      <img class ="image img-responsive" src="<%= vendor.image%>">
+          </div>
   </div>
 </div>
 

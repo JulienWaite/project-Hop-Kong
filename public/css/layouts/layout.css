@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(/public/css/layouts/AprilsHandwriting-Regular.otf);
+  src: url(/public/css/layouts/laurencb.ttf);
   color: #fffafa;
 }
 
@@ -13,13 +13,29 @@ body {
   font-family: myFirstFont;
 }
 
+.largehk {
+  color: white;
+  margin-top: 30px;
+  font-size: 100px;
+}
+
+.smallhk {
+  color: white;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.kongclick {
+  padding: 0;
+}
+
 .fixed-navbar {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 80px;
+  /*height: 80px;*/
   background-color: rgba(0,0,0,.25);
   /*background-color: #02113f;
   opacity: 0.5;*/
@@ -38,9 +54,36 @@ body {
     height: 100%;
   }
 }
-
-.modal-dialog {
+  .modal-dialog {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    position: relative;
+    right: -50%;
+  }
+  .navbar-nav > li {
+    position: relative;
+    left: -50%;
+  }
+  .navbar-nav > li a {
+    line-height: 126px;
+    vertical-align: middle;
+    padding: 0 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav > li a {
+    padding: 0 36px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav > li a {
+    padding: 0 68px;
+  }
 }

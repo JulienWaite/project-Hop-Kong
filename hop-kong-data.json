@@ -40,7 +40,7 @@
 "locality": "Central",
 "area": "Hong Kong Island",
 "type": ["Online Store"],
-"phone": "8888-8888",
+"phone": "No phone number provided",
 "email": "sales@beers-r-us.com",
 "website": "http://www.beersrus.hk",
 "facebook": "https://www.facebook.com/Beers-R-Us-358651907577798/",
@@ -57,13 +57,13 @@
 "locality": "Sheung Wan",
 "area": "Hong Kong Island",
 "type": ["Online Store"],
-"phone": "8888-8888",
+"phone": "No phone number provided",
 "email": "drink@bestbevhk.com",
 "website": "http://bestbevhk.com",
 "facebook": "https://www.facebook.com/BestbevHk/",
 "twitter": "https://twitter.com/bestbevhk",
 "instagram": "https://www.instagram.com/bestbevhk/",
-"beerCountry": ["Australia","France","Japan","Scotland"],
+"beerCountry": ["Australia", "France", "Japan", "Scotland"],
 "rating": 1
 }
 {
@@ -74,7 +74,7 @@
 "locality": "Wong Chuk Hang",
 "area": "Hong Kong Island",
 "type": ["Brewery"],
-"phone": "8888-8888",
+"phone": "No phone number provided",
 "email": "beer@blackkite.hk",
 "website": "http://blackkite.hk",
 "facebook": "https://www.facebook.com/blackkitebrewery/",
@@ -97,7 +97,7 @@
 "facebook": "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
 "twitter": "https://twitter.com/CraftBrewCoHK",
 "instagram": "",
-"beerCountry": ["Hong Kong","Japan","New Zealand","Scotland","USA"],
+"beerCountry": ["Hong Kong", "Japan", "New Zealand", "Scotland", "USA"],
 "rating": 1
 }
 {
@@ -114,7 +114,7 @@
 "facebook": "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
 "twitter": "https://twitter.com/CraftBrewCoHK",
 "instagram": "",
-"beerCountry": ["Hong Kong","Japan","New Zealand","Scotland","USA"],
+"beerCountry": ["Hong Kong", "Japan", "New Zealand", "Scotland", "USA"],
 "rating": 1
 }
 {
@@ -131,7 +131,7 @@
 "facebook": "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
 "twitter": "https://twitter.com/CraftBrewCoHK",
 "instagram": "",
-"beerCountry": ["Hong Kong","Japan","New Zealand","Scotland","USA"],
+"beerCountry": ["Hong Kong", "Japan", "New Zealand", "Scotland", "USA"],
 "rating": 1
 }
 {
@@ -193,7 +193,7 @@
 "locality": "Chai Wan",
 "area": "Hong Kong Island",
 "type": ["Brewery"],
-"phone": "8888-8888",
+"phone": "No phone number provided",
 "email": "info@gweilobeer.com",
 "website": "http://gweilobeer.com",
 "facebook": "https://www.facebook.com/gweilobeer/",
@@ -250,7 +250,7 @@
 "facebook": "https://www.facebook.com/hopleafhk",
 "twitter": "https://twitter.com/hopleafhk",
 "instagram": "https://www.instagram.com/hopleafhk/",
-"beerCountry": ["Denmark","Japan","New Zealand","Norway","Scotland","USA"],
+"beerCountry": ["Denmark", "Japan", "New Zealand", "Norway", "Scotland", "USA"],
 "rating": 1
 }
 {
@@ -380,7 +380,7 @@
 "locality": "Sheung Wan",
 "area": "Hong Kong Island",
 "type": ["Online Store"],
-"phone": "8888-8888",
+"phone": "No phone number provided",
 "email": "notavailable@email.com",
 "website": "http://taipanbeer.com",
 "facebook": "https://www.facebook.com/TaiPanBeerCo",
@@ -420,7 +420,7 @@
 "facebook": "https://www.facebook.com/bbpier3and4/",
 "instagram": "https://www.instagram.com/explore/locations/222098241/",
 "twitter": "",
-"beerCountry": ["England","Scotland"],
+"beerCountry": ["England", "Scotland"],
 "rating": 1
 }
 {
@@ -437,7 +437,7 @@
 "facebook": "https://www.facebook.com/thebottleshop.hk/",
 "twitter": "https://twitter.com/thebottleshophk",
 "instagram": "",
-"beerCountry": ["Australia","Belgium","Canada","England","Hong Kong","Japan","New Zealand","Scotland","USA"],
+"beerCountry": ["Australia", "Belgium", "Canada", "England", "Hong Kong", "Japan", "New Zealand", "Scotland", "USA"],
 "rating": 1
 }
 {
@@ -549,7 +549,7 @@
 "locality": "Ap Lei Chau",
 "area": "Hong Kong Island",
 "type": ["Brewery"],
-"phone": "8888-8888",
+"phone": "No phone number provided",
 "email": "info@youngmasterales.com",
 "website": "http://www.youngmasterales.com",
 "facebook": "https://www.facebook.com/YoungMasterAles/",
@@ -583,7 +583,7 @@
 "locality": "Kung Tong",
 "area": "New Territories",
 "type": ["Brewery"],
-"phone": "",
+"phone": "No phone number provided",
 "email": "beer@moonzen.hk",
 "website": "http://moonzen.hk ",
 "facebook": "https://www.facebook.com/moonzen.hk",
@@ -600,7 +600,7 @@
 "locality": "Sheung Wan",
 "area": "Hong Kong Island",
 "type": ["Craft Beer Bar"],
-"phone": "8888-8888",
+"phone": "No phone number provided",
 "email": "craftrevolution@hkbeerco.com",
 "website": "",
 "facebook": "https://www.facebook.com/craftrevolutionhk/",
@@ -651,10 +651,10 @@
 "locality": "Fo Tan",
 "area": "New Territories",
 "type": ["Brewery"],
-"phone": "8888-8888",
-"email": "",
+"phone": "No phone number provided",
+"email": "international@kodawari.cc",
 "website": "http://www.kodawari.cc",
-"facebook": "",
+"facebook": "https://www.facebook.com/hitachino.nestbeer/",
 "twitter": "",
 "instagram": "",
 "beerCountry": ["Japan"],
@@ -668,7 +668,7 @@
 "locality": "Sai Ying Pun",
 "area": "Hong Kong Island",
 "type": ["Craft Beer Bar"],
-"phone": "",
+"phone": "2323-2237",
 "email": "",
 "website": "",
 "facebook": "https://www.facebook.com/Granville.Island.HK/",
