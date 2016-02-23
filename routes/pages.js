@@ -12,14 +12,14 @@ exports.register = function (server, options, next) {
         }
       }
     },
-    {
+    { // redirect the home page to hopkong
       method: 'GET',
       path: '/',
       handler: function(request, reply) {
         reply.redirect("/hopkong");
       }
     },
-    { // Home Page & Getting all vendors
+    { // Home page (Hop Kong) & getting all vendors
       method: 'GET',
       path: '/hopkong',
       handler: function(request, reply) {
@@ -60,18 +60,30 @@ exports.register = function (server, options, next) {
          var db = request.server.plugins['hapi-mongodb'].db; // get the db address
          var ObjectID = request.server.plugins['hapi-mongodb'].ObjectID;
 
-         var id = ObjectID(request.params.id);
+         var vendor_id = ObjectID(request.params.id);
+         var user_id = ObjectID(result.user._id);
 
-         db.collection('vendors').findOne({"_id": id}, function (err, vendor) {
+         db.collection('vendors').findOne({"_id": vendor_id}, function (err, vendor) {
            if (err) { return reply(err); }
            // reply(results).code(200);
 
-           var data = {
-            vendor: vendor,
-            user: result.user,
-            authenticated: result.authenticated
+          var queryBookmark = {
+            vendor_id: vendor_id,
+            user_id: user_id
           };
-           reply.view('pages/vendors', data).code(200);
+
+           db.collection('bookmarks').findOne(queryBookmark, function (err, bookmark) {
+            if (err) { return reply(err); }
+
+            var data = {
+              vendor: vendor,
+              user: result.user,
+              authenticated: result.authenticated,
+              bookmark: bookmark
+            };
+
+            reply.view('pages/vendors', data).code(200);
+           });
          });
        });
      }
@@ -82,9 +94,11 @@ exports.register = function (server, options, next) {
       handler: function(request, reply) {
         Authenticated(request, function (result) {
 
+
           var data = {
             user: result.user,
-            authenticated: result.authenticated
+            authenticated: result.authenticated,
+            bookmarks: [{test: "test1"},{test: "test2"}]
           };
 
           reply.view('pages/bookmarks', data).code(200);
