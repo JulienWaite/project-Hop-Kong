@@ -182,7 +182,7 @@
 "facebook": "https://www.facebook.com/Crafty-Cow-HK-1518573841786370",
 "twitter": "https://twitter.com/craftycowhk",
 "instagram": "",
-"beerCountry": ["USA"],
+"beerCountry": ["Australia", "Denmark", "Japan", "New Zealand", "USA"],
 "rating": 1
 }
 {
@@ -216,7 +216,7 @@
 "facebook": "https://www.facebook.com/HKBrewcraft/",
 "twitter": "https://twitter.com/HKBrewcraft",
 "instagram": "https://www.instagram.com/hkbrewcraft/",
-"beerCountry": ["England", "Japan"],
+"beerCountry": ["England", "Japan", "New Zealand", "Scotland", "USA"],
 "rating": 10
 }
 {
@@ -335,7 +335,7 @@
 "facebook": "https://www.facebook.com/sipshk/",
 "twitter": "https://twitter.com/sipshk?lang=en",
 "instagram": "",
-"beerCountry": ["England"],
+"beerCountry": ["England", "USA"],
 "rating": 1
 }
 {

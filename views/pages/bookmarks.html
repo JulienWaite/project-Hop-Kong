@@ -6,9 +6,10 @@
   <div id="images" class="container-fluid">
     <% bookmarks.forEach(function (bookmark) { %>
       <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <class="thumbnail" href="/vendors/<%= bookmark.vendor._id %>">
+        <div class="thumbnail" href="/vendors/<%= bookmark.vendor._id %>">
           <img class="img-responsive" src="<%= bookmark.vendor.image %>"   alt="<%= bookmark.vendor.name %>">
-          <button id="bookmark-btn" class="btn btn-default btn-responsive btn-danger">Delete</button>
+        </div>
+        <button class="delete-bookmark-btn" class="btn btn-default btn-responsive btn-danger" data-id="<%= bookmark._id%>">Delete</button>
       </div>
     <% }) %>
   </div>

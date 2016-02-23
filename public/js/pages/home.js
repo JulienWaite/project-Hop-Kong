@@ -30,7 +30,7 @@ $(document).ready(function () {
     }
   };
 
-  $('#vendor-type').off().on('change', function(){
+  $vendortype.off().on('change', function(){
     //console.log($vendortype.val());
     localStorage.hopkongVendorType = $vendortype.val(); // storing the selections for the session
     onVendorTypeChanged();
@@ -48,7 +48,7 @@ $(document).ready(function () {
 
   var setFilterValFromStorage = function($filter, storageKey, defaultVal) {
     var localValue = localStorage[storageKey];
-    if (localValue == null) {
+    if (localValue === null) {
       localStorage.setItem(storageKey, defaultVal);
     } else {
       $filter.selectpicker('val', localValue);

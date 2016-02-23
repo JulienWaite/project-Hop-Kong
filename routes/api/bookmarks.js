@@ -38,11 +38,60 @@ exports.register = function (server, options, next) {
               });
             });
           } else {
-            reply({message: "Not Authorize"}).code(400);
+            reply({message: "Not Authorized"}).code(400);
           }
         });
       }
+    },
+    {
+      method: 'DELETE', // Remove bookmark
+      path: '/api/bookmarks/{bookmark_id}',
+      handler: function (request, reply) {
+        Authenticated(request, function (result) { // from Authenticated js
+          if (result.authenticated) {
+            var db = request.server.plugins['hapi-mongodb'].db;  // connects to the database
+            var ObjectID = request.server.plugins['hapi-mongodb'].ObjectID;
+            //console.log(request.params.id);
+
+            var vendor_id = request.payload.vendor_id;
+            var user_id   = result.user._id;
+            var bookmark_id = request.params.bookmark_id;
+
+            var findBookmark = {
+              bookmark_id: ObjectID(bookmark_id),
+              vendor_id  : ObjectID(vendor_id),
+              user_id    : ObjectID(user_id)
+            };
+
+            // find the bookmark
+            db.collection('bookmarks').findOne({"_id": findBookmark.bookmark_id}, function (err, bookmark) {
+              if (err) {
+                return reply(err).code(400);
+            }
+
+            // check if the bookmark exists
+            if (bookmark === null) {
+              return reply ({message: "There is no bookmark"}),code(404);
+            }
+
+            // check if it belongs to the user
+            if (bookmark.user_id.toString() === findBookmark.user_id.toString()) {
+              db.collection('bookmarks').remove({"_id": findBookmark.bookmark_id}, function (err, doc) { // delete the data!
+                if (err) {
+                  return reply(err).code(400);
+                }
+                reply(doc).code(200);
+              });
+            } else { // not your bookmark
+              reply({message: "This is not your doughnut"}).code(400);
+            }
+          });
+        } else { // can't delete if not logged in
+          reply(result).code(400);
+        }
+      });
     }
+  }
   ]);
 
   next();
