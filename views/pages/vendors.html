@@ -8,9 +8,11 @@
       <p>(<%= vendor.type%>)</p>
       <% if (authenticated) { %>
         <% if (bookmark) { %>
-         <button id="bookmark-btn" class="btn btn-default btn-responsive btn-success">Bookmarked</button>
+         <button id="bookmark-add-btn" class="btn btn-default btn-responsive btn-success" style="display: none;">Add to Bookmarks</button>
+         <button id="bookmark-remove-btn" class="btn btn-default btn-responsive btn-danger" data-id="<%= bookmark._id %>">Remove</button>
         <% } else {%>
-         <button id="bookmark-btn" class="btn btn-default btn-responsive btn-success">Add to Bookmarks</button>
+         <button id="bookmark-add-btn" class="btn btn-default btn-responsive btn-success">Add to Bookmarks</button>
+         <button id="bookmark-remove-btn" class="btn btn-default btn-responsive btn-danger" style="display: none;">Remove</button>
         <% } %>
       <% } else { %>
         <p>Please login to save bookmark</p>

@@ -13,9 +13,11 @@ exports.register = function (server, options, next) {
 
             var vendor_id = request.payload.vendor_id;
             var user_id   = result.user._id;
+            var bookmark_id = new ObjectID();
 
             db.collection('vendors').findOne({"_id": ObjectID(vendor_id)}, function(err, vendor){
               var newBookmark = {
+                "_id": bookmark_id,
                 vendor: vendor,
                 vendor_id: ObjectID(vendor_id),
                 user_id: ObjectID(user_id)
@@ -29,7 +31,7 @@ exports.register = function (server, options, next) {
                   db.collection('bookmarks').insert(newBookmark, function(err, doc) {
                     if (err) { return reply(err).code(400); }
 
-                    reply({message: "Bookmarked"}).code(200);
+                    reply({message: "Bookmarked", bookmark_id: newBookmark._id}).code(200);
                     // reply.redirect('/bookmarks');
                   });
                 } else {
