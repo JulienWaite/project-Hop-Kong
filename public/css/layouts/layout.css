@@ -30,25 +30,28 @@ h3 {
 .align * {
   display: inline;
 }
-
+#signup, #signin {
+  color: black;
+}
 .modal-dialog {
   padding-top:20%;
   font-size: 24px;
+  color: white;
 }
 .modal-title {
   font-size: 24px;
+  color: white;
 }
 .modal-content {
   height: 100% !important;
   overflow:visible;
   background-color: black;
-  color: white;
 }
 .modal-body {
   height: 40%;
   overflow: auto;
   background-color: black;
-  font: white;
+  color: black;
   font-size: 24px;
 }
 .largehk {
@@ -77,6 +80,5 @@ h3 {
 }
 .modal {
   text-align: center;
-  color: black;
   vertical-align: middle;
 }
