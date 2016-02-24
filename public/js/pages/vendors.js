@@ -44,9 +44,18 @@ $(document).ready(function () {
     });
   };
 
+  var bindPromptButton = function () {
+    $('#bookmark-prompt-btn').off().on("click", function (e) {
+      e.preventDefault();
+        console.log("Hello Jules");
+        $('#signinModal').modal('show');
+    });
+  };
+
   var init = function () {
     bindAddBookmark();
     bindRemoveBookmark();
+    bindPromptButton();
   };
 
   init();

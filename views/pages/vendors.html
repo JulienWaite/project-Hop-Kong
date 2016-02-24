@@ -5,19 +5,20 @@
   <div class="row">
     <div class="col-md-7 col-xs-12">
       <h1><%= vendor.name%></h1>
-      <p>(<%= vendor.type%>)</p>
-      <% if (authenticated) { %>
-        <% if (bookmark) { %>
-         <button id="bookmark-add-btn" class="btn btn-default btn-responsive btn-success" style="display: none;">Add to Bookmarks</button>
-         <button id="bookmark-remove-btn" class="btn btn-default btn-responsive btn-danger" data-id="<%= bookmark._id %>">Remove</button>
-        <% } else {%>
-         <button id="bookmark-add-btn" class="btn btn-default btn-responsive btn-success">Add to Bookmarks</button>
-         <button id="bookmark-remove-btn" class="btn btn-default btn-responsive btn-danger" style="display: none;">Remove</button>
+      <div class="align">
+        <p>(<%= vendor.type%>)</p>
+        <% if (authenticated) { %>
+          <% if (bookmark) { %>
+           <button id="bookmark-add-btn" class="btn btn-default btn-responsive btn-success" style="display: none;">RememBEER Me</button>
+           <button id="bookmark-remove-btn" class="btn btn-default btn-responsive btn-danger" data-id="<%= bookmark._id %>">Remove</button>
+          <% } else {%>
+           <button id="bookmark-add-btn" class="btn btn-default btn-responsive btn-success">RememBEER Me</button>
+           <button id="bookmark-remove-btn" class="btn btn-default btn-responsive btn-danger" style="display: none;">Remove</button>
+          <% } %>
+        <% } else { %>
+          <button id="bookmark-prompt-btn" class="btn btn-default btn-responsive btn-danger">Login to bookmark</button>
         <% } %>
-      <% } else { %>
-        <p>Please login to save bookmark</p>
-      <% } %>
-
+      </div>
       <p>Beers from <%= vendor.beerCountry%>
       <p>Address: <%= vendor.street%>, <%= vendor.locality%></p>
       <p>Phone: <%= vendor.phone%></p>

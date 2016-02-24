@@ -1,11 +1,12 @@
+#images {
+  margin-top: 180px;
+}
 .img-responsive {
   position: relative;
 }
-
 .delete-bookmark-btn  {
   position:absolute; bottom:0;  margin-bottom:30px; left: 210px;
 }
-
 .wrapper{
   display: table;
   width: 100%; /* Add or remove this depending on your layout */

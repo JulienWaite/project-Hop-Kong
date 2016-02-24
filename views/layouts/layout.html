@@ -17,6 +17,7 @@
 
   <nav class="fixed-navbar navbar-default">
     <div class="container-fluid">
+
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -34,33 +35,15 @@
           <h1 class="smallhk">Kong</h1>
         </a>
       </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="/hopkong">
-              <img src="http://i.imgur.com/VrhbqGz.png" alt="home">
-            </a>
-          </li>
-          <li>
-            <a href="/bookmarks">
-              <img src="http://i.imgur.com/3wkva8Z.png" alt="bookmarks">
-            </a>
-          </li>
-          <li class="hidden-xs">
-            <h1 class="largehk">Hop</h1>
-          </li>
-          <li class="hidden-xs">
-            <a class="kongclick" href="/hopkong">
-              <img src="http://i.imgur.com/rpxlUk4.png" alt="Brand" width="180"/>
-            </a>
-          </li>
-          <li class="hidden-xs">
-            <h1 class="largehk">Kong</h1>
-          </li>
 
+      <div class="collapse navbar-collapse">
+        <ul class="kingkong">
+          <li><a href="/hopkong"><img src="http://i.imgur.com/VrhbqGz.png" alt="home"></a></li>
+          <li><a href="/bookmarks"><img src="http://i.imgur.com/3wkva8Z.png" alt="bookmarks"></a></li>
+          <li class="hidden-xs"><a class="kongclick" href="/hopkong"><img src="http://i.imgur.com/XQzrggQ.png" alt="Brand" width="600"/></a></li>
         <% if (!authenticated) { %>
-          <li><button class="btn btn-default btn-responsive" data-toggle="modal" data-target="#signupModal">Sign Up</button></li>
-          <li><button class="btn btn-default btn-responsive" data-toggle="modal" data-target="#signinModal">Sign In</button></li>
+          <li><button class="btn btn-primary btn-responsive" data-toggle="modal" data-target="#signupModal">Sign Up</button></li>
+          <li><button class="btn btn-primary btn-responsive" data-toggle="modal" data-target="#signinModal">Sign In</button></li>
         <% } else { %>
           <li><h3 id="username"><%= user.username%></h3></li>
           <li><button id="signout-btn" class="btn btn-success btn-responsive">Sign Out</button></li>
@@ -86,14 +69,15 @@
           <form id="signup">
             <input type="text" name="name" placeholder="name">
             <input type="text" name="email" placeholder="email">
+            <br>
             <input type="text" name="username" placeholder="username">
             <input type="password" name="password" placeholder="password">
-            <input id="signup-btn" type="submit" name="Sign Up">
+            <input id="signup-btn" class= "btn btn-success" type="submit" name="Sign Up">
             <p id="signup-form-message">Please enter your details</p> <!-- quick fix -->
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary btn-default" data-dismiss="modal">Close</button>
           <!-- <button type="button" class="btn btn-primary">Save changes</button>  -->
         </div>
       </div>
@@ -115,12 +99,12 @@
           <form id="signin">
             <input type="text" name="username" placeholder="username">
             <input type="password" name="password" placeholder="password">
-            <input id="signin-btn" type="submit" name="Sign In">
+            <input id="signin-btn" class="btn btn-success" type="submit" name="Sign In">
             <p>Please enter your login details</p>
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary btn-default" data-dismiss="modal">Close</button>
           <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
         </div>
       </div>

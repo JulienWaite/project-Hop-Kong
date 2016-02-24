@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: myFirstFont;
   src: url(/public/css/layouts/laurencb.ttf);
@@ -14,25 +16,54 @@ body {
   font-family: myFirstFont;
 }
 
+.kingkong {
+  text-align: center;
+}
+
+.kingkong li {
+  display: inline;
+}
+
 h3 {
   color: white;
+}
+.align * {
+  display: inline;
+}
+
+.modal-dialog {
+  padding-top:20%;
+  font-size: 24px;
+}
+.modal-title {
+  font-size: 24px;
+}
+.modal-content {
+  height: 100% !important;
+  overflow:visible;
+  background-color: black;
+  color: white;
+}
+.modal-body {
+  height: 40%;
+  overflow: auto;
+  background-color: black;
+  font: white;
+  font-size: 24px;
 }
 .largehk {
   color: white;
   margin-top: 30px;
   font-size: 100px;
 }
-
 .smallhk {
   color: white;
   margin-top: 30px;
   font-size: 50px;
 }
-
 .kongclick {
   padding: 0;
 }
-
 .fixed-navbar {
   position: fixed;
   top: 0;
@@ -44,50 +75,8 @@ h3 {
   /*background-color: #02113f;
   opacity: 0.5;*/
 }
-
 .modal {
   text-align: center;
   color: black;
-}
-
-@media screen and (min-width: 768px) {
-  .modal:before {
-    display: inline-block;
-    vertical-align: middle;
-    content: " ";
-    height: 100%;
-  }
-}
-  .modal-dialog {
-  display: inline-block;
-  text-align: left;
   vertical-align: middle;
-}
-
-@media (min-width: 768px) {
-  .navbar-nav {
-    position: relative;
-    right: -50%;
-  }
-  .navbar-nav > li {
-    position: relative;
-    left: -50%;
-  }
-  .navbar-nav > li a {
-    line-height: 126px;
-    vertical-align: middle;
-    padding: 0 24px;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar-nav > li a {
-    padding: 0 48px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .navbar-nav > li a {
-    padding: 0 68px;
-  }
 }

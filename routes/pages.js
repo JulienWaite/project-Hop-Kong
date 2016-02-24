@@ -93,21 +93,33 @@ exports.register = function (server, options, next) {
       path: '/bookmarks',
       handler: function(request, reply) {
         Authenticated(request, function (result) {
-          var db = request.server.plugins['hapi-mongodb'].db; // get the db address
+          if (result.authenticated) {
+            var db = request.server.plugins['hapi-mongodb'].db; // get the db address
+            var ObjectID = request.server.plugins['hapi-mongodb'].ObjectID; // get the db address
 
-          var query = {};
+            var query = {
+              user_id: ObjectID(result.user._id)
+            };
 
-          db.collection('bookmarks').find(query).toArray(function(err, bookmarks){
+            db.collection('bookmarks').find(query).toArray(function(err, bookmarks){
+              var data = {
+                user: result.user,
+                authenticated: result.authenticated,
+                bookmarks: bookmarks
+              };
+              console.log(data);
+
+              reply.view('pages/bookmarks', data).code(200);
+            });
+          } else {
             var data = {
               user: result.user,
               authenticated: result.authenticated,
-              //bookmarks: [{test: "test1"},{test: "test2"}]
-              bookmarks: bookmarks
+              bookmarks: []
             };
-            console.log(data);
 
             reply.view('pages/bookmarks', data).code(200);
-          });
+          }
         });
       }
     }
