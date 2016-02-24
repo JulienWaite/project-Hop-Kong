@@ -24,8 +24,9 @@ body {
   display: inline;
 }
 
-h3 {
+#username {
   color: white;
+  font-size: 30px;
 }
 .align * {
   display: inline;

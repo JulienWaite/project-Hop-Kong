@@ -12,3 +12,10 @@
   border-width: 5px;
   border-color: white;
 }
+.filter-option {
+  font-size: 24px;
+}
+
+ul.dropdown-menu li a span {
+  font-size: 24px;
+}
