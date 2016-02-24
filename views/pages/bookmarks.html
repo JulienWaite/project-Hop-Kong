@@ -1,19 +1,21 @@
 <div id="bookmarks-page">
-  <h2>Bookmarks Page</h2>
+  <h2></h2>
 </div>
 
-<div class="row">
-  <div id="images" class="container-fluid">
+<div id="images" class="container-fluid">
+  <div class="row">
     <% bookmarks.forEach(function (bookmark) { %>
-      <div class="thumb col-md-3 col-xs-12">
+      <div class="thumb col-md-3 col-sm-6 col-xs-12">
         <div class="thumbnail" href="/vendors/<%= bookmark.vendor._id %>">
-          <img class="img-responsive" src="<%= bookmark.vendor.image %>"   alt="<%= bookmark.vendor.name %>">
+          <img class="img-responsive img-rounded" src="<%= bookmark.vendor.image %>"   alt="<%= bookmark.vendor.name %>">
         </div>
-        <button class="delete-bookmark-btn col-md-3 col-xs-12 btn-centered btn-responsive btn-danger" data-id="<%= bookmark._id%>">Delete</button>
+          <button class="delete-bookmark-btn btn-centered btn-lg btn-responsive btn-danger" data-id="<%= bookmark._id%>">Delete
+          </button>
       </div>
     <% }) %>
   </div>
 </div>
 
+<link rel="stylesheet" href="/public/css/pages/bookmarks.css">
 <script src="/public/js/pages/bookmarks.js"></script>
 <!-- style sheet link -->

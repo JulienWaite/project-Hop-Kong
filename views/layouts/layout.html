@@ -37,10 +37,14 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li>
-            <a href="/hopkong">Home</a>
+            <a href="/hopkong">
+              <img src="http://i.imgur.com/VrhbqGz.png" alt="home">
+            </a>
           </li>
           <li>
-            <a href="/bookmarks">My Beer</a>
+            <a href="/bookmarks">
+              <img src="http://i.imgur.com/3wkva8Z.png" alt="bookmarks">
+            </a>
           </li>
           <li class="hidden-xs">
             <h1 class="largehk">Hop</h1>
@@ -58,7 +62,7 @@
           <li><button class="btn btn-default btn-responsive" data-toggle="modal" data-target="#signupModal">Sign Up</button></li>
           <li><button class="btn btn-default btn-responsive" data-toggle="modal" data-target="#signinModal">Sign In</button></li>
         <% } else { %>
-          <li><p><%= user.username%></p></li>
+          <li><h3 id="username"><%= user.username%></h3></li>
           <li><button id="signout-btn" class="btn btn-success btn-responsive">Sign Out</button></li>
         <% } %>
         </ul>

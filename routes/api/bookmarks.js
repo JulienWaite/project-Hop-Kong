@@ -55,13 +55,11 @@ exports.register = function (server, options, next) {
             var ObjectID = request.server.plugins['hapi-mongodb'].ObjectID;
             //console.log(request.params.id);
 
-            var vendor_id = request.payload.vendor_id;
             var user_id   = result.user._id;
             var bookmark_id = request.params.bookmark_id;
 
             var findBookmark = {
               bookmark_id: ObjectID(bookmark_id),
-              vendor_id  : ObjectID(vendor_id),
               user_id    : ObjectID(user_id)
             };
 
@@ -85,7 +83,7 @@ exports.register = function (server, options, next) {
                 reply(doc).code(200);
               });
             } else { // not your bookmark
-              reply({message: "This is not your doughnut"}).code(400);
+              reply({message: "This is not your bookmark"}).code(400);
             }
           });
         } else { // can't delete if not logged in
